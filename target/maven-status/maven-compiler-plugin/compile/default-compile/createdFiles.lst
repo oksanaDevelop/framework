@@ -1,0 +1,4 @@
+utils\GlobalVariables.class
+utils\SeleniumMethods.class
+utils\PropertiesFromFile.class
+utils\ManageWebDriver.class
