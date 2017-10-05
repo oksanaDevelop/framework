@@ -1,4 +1,7 @@
+ExampleConfig.class
 utils\GlobalVariables.class
 utils\SeleniumMethods.class
-utils\PropertiesFromFile.class
+pages\HomePage.class
+pages\SignInPage.class
+utils\AllureReporterExt.class
 utils\ManageWebDriver.class

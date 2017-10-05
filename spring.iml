@@ -2,7 +2,12 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/cucumber.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/ExampleConfig.java</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
@@ -72,10 +77,9 @@
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
     <orderEntry type="library" name="Maven: bouncycastle:bcprov-jdk15:135" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-java:1.2.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-core:1.2.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-html:0.2.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-core:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-html:0.2.3" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-junit:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-spring:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.11.RELEASE" level="project" />
@@ -85,5 +89,18 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.11.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-cucumber-jvm-adaptor:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-aspects:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-adaptor-api:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-java-annotations:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tika:tika-core:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-commons:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.allure:allure-model:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: ru.yandex.qatools.properties:properties-loader:1.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils-core:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
   </component>
 </module>
