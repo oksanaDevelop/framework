@@ -1,6 +1,7 @@
 package utils;
 
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,7 @@ import org.springframework.core.env.Environment;
 public class ManageWebDriver {
 
     private static  WebDriver driver;
-
+    private final static Logger log = Logger.getLogger(ManageWebDriver.class);
     private static Environment env;
 
     @Autowired
@@ -52,17 +53,21 @@ public class ManageWebDriver {
                 throw new RuntimeException("driver type is unknown");
         }
 
+        log.info(String.format("New %s driver is created", driverType));
+
         GlobalVariables.setWebdriver(driver);
 
         return driver;
     }
 
     public static void closeWebDriver() {
-        driver = GlobalVariables.getWebDriver();
+       driver = GlobalVariables.getWebDriver();
         if (driver == null) {
-            return;
-        } else {
+            log.info("Driver is NULL");
+        }
+      else {
             driver.close();
+            log.info("Close driver");
             GlobalVariables.setWebdriver(null);
         }
     }

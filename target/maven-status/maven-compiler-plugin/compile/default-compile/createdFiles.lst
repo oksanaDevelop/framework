@@ -1,7 +1,3 @@
-ExampleConfig.class
-utils\GlobalVariables.class
-utils\SeleniumMethods.class
 pages\HomePage.class
-pages\SignInPage.class
-utils\AllureReporterExt.class
 utils\ManageWebDriver.class
+utils\GlobalVariables.class

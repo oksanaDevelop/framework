@@ -21,7 +21,7 @@ public class Hooks {
 
     @After
     public void closeDriver(){
-        ManageWebDriver.closeWebDriver();
+       ManageWebDriver.closeWebDriver();
     }
 
 }

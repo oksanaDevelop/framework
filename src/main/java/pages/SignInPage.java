@@ -10,6 +10,9 @@ public class SignInPage {
     private final String FIELD_EMAIL_NAME = "email";
     private final String FIELD_PASSWORD_NAME = "password";
     private final String BUTTON_SIGN_IN_XPATH = "//button[text() = 'Sign In']";
+    private final String ERORR_TEXT_CLASS = "ada-error-text";
+    private final String ERORR_CREDENTIAL_DOES_NOT_MATCH_XPATH = "//span[text() ='Your password and email do not match. Please try again or ']";
+
 
     @Autowired
     private SeleniumMethods seleniumMethods;
@@ -23,6 +26,10 @@ public class SignInPage {
     public SignInPage fillPasswordField(String password){
         seleniumMethods.fillField(By.name(FIELD_PASSWORD_NAME), password);
         return this;
+    }
+
+    public boolean isErrorVisible(String errorMessage){
+        return seleniumMethods.isErrorMessagesPresent(errorMessage, By.className(ERORR_TEXT_CLASS));
     }
 
     public void clickSignInButton(){

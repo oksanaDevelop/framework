@@ -1,0 +1,8 @@
+2017-10-07 16:06:29 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@131ef10: startup date [Sat Oct 07 16:06:29 CDT 2017]; root of context hierarchy
+2017-10-07 16:06:29 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2017-10-07 16:06:32 INFO  ManageWebDriver:56 - New chrome driver is created
+2017-10-07 16:06:32 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-07 16:06:51 INFO  ManageWebDriver:70 - Close driver
+2017-10-07 16:06:51 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-07 16:06:51 INFO  GlobalVariables:35 - Webdriver is NULL
+2017-10-07 16:06:51 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@131ef10: startup date [Sat Oct 07 16:06:29 CDT 2017]; root of context hierarchy

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1507230869538" stop="1507230896945" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login/Log out functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1507230874529" stop="1507230896945" status="failed">
+            <name>Login with valid credentials</name>
+            <title>Login with valid credentials</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: null</message>
+                <stack-trace>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SignInSteps.user_opens_Home_page(SignInSteps.java:25)
+	at ✽.Given User opens Home page(login.feature:4)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1507230874532" stop="1507230894256" status="failed">
+                    <name>Given User opens Home page</name>
+                    <title>Given User opens Home page</title>
+                    <attachments>
+                        <attachment title="attachScreenshot" source="8d5b86c8-d8da-4911-928b-5563b1b58b91-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="80b341ff-a818-41d5-a283-43bde4c281db-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login with valid credentials"/>
+                <label name="feature" value="Login/Log out functionality"/>
+                <label name="host" value="DESKTOP-B8NEL8U"/>
+                <label name="thread" value="15120@DESKTOP-B8NEL8U.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Login/Log out functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,18 +1,10 @@
 package utils;
 
 import gherkin.formatter.model.Result;
-import org.bouncycastle.util.test.SimpleTest;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import pages.HomePage;
 import ru.yandex.qatools.allure.annotations.Attachment;
 import ru.yandex.qatools.allure.cucumberjvm.AllureReporter;
-
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class AllureReporterExt extends AllureReporter {
 
