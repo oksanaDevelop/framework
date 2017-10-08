@@ -18,12 +18,13 @@ public class SignInPage {
     private SeleniumMethods seleniumMethods;
 
     public SignInPage fillEmailField(String email){
-        if (seleniumMethods==null) System.out.println("seleniumMethods==null");
+        if (email.equals("''")) email ="";
         seleniumMethods.fillField(By.name(FIELD_EMAIL_NAME), email);
         return this;
     }
 
     public SignInPage fillPasswordField(String password){
+        if (password.equals("''")) password ="";
         seleniumMethods.fillField(By.name(FIELD_PASSWORD_NAME), password);
         return this;
     }

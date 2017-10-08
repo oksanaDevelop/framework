@@ -1,6 +1,5 @@
 package utils;
 
-import javafx.scene.web.WebView;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 import org.openqa.selenium.WebDriver;
-import sun.rmi.runtime.Log;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -25,6 +23,7 @@ public class SeleniumMethods {
    Environment env;
 
     public WebDriver getDriver(){
+        log.info("Methods ask driver");
         return ManageWebDriver.getWebdriver();
     }
 

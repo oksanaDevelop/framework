@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login/log-out-functionality;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1670910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2077314635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9076308964,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens Home page",
+            "match": {
+              "location": "SignInSteps.user_opens_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2288136754,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User signs in with login olegmarket@gmail.com and password lucky125",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olegmarket@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "lucky125",
+                  "offset": 59
+                }
+              ],
+              "location": "SignInSteps.user_signs_in_with_login_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3188252675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User signs in successfully",
+            "match": {
+              "location": "SignInSteps.user_signs_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login/Log out functionality",
+    "description": "",
+    "id": "login/log-out-functionality",
+    "keyword": "Feature",
+    "uri": "parallel/features/login_scenario001_run001_IT.feature"
+  }
+]

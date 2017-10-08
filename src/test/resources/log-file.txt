@@ -1,8 +1,28 @@
-2017-10-07 16:08:28 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@131ef10: startup date [Sat Oct 07 16:08:28 CDT 2017]; root of context hierarchy
-2017-10-07 16:08:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-07 16:08:31 INFO  ManageWebDriver:56 - New chrome driver is created
-2017-10-07 16:08:31 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
-2017-10-07 16:08:46 INFO  ManageWebDriver:70 - Close driver
-2017-10-07 16:08:46 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
-2017-10-07 16:08:46 INFO  GlobalVariables:35 - Webdriver is NULL
-2017-10-07 16:08:46 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@131ef10: startup date [Sat Oct 07 16:08:28 CDT 2017]; root of context hierarchy
+2017-10-07 20:03:45 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ba3f27a: startup date [Sat Oct 07 20:03:45 CDT 2017]; root of context hierarchy
+2017-10-07 20:03:45 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2017-10-07 20:03:45 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-07 20:03:45 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:45 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:48 INFO  ManageWebDriver:56 - New chrome driver is created
+2017-10-07 20:03:48 INFO  GlobalVariables:34 - Put Webdriver to globalVariables.
+2017-10-07 20:03:53 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:53 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:54 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:54 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:55 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:55 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:55 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:55 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:55 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:55 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:03:57 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:03:57 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:04:00 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:04:00 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:04:00 INFO  SeleniumMethods:26 - Methods ask driver
+2017-10-07 20:04:00 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:04:01 INFO  GlobalVariables:28 - Take a WebDriver from globalVariables
+2017-10-07 20:04:03 INFO  ManageWebDriver:70 - Close driver
+2017-10-07 20:04:03 INFO  GlobalVariables:34 - Put Webdriver to globalVariables.
+2017-10-07 20:04:03 INFO  GlobalVariables:36 - Webdriver is NULL
+2017-10-07 20:04:03 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@5ba3f27a: startup date [Sat Oct 07 20:03:45 CDT 2017]; root of context hierarchy

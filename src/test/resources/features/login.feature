@@ -11,8 +11,8 @@ Feature: Login/Log out functionality
     Then Error message <error message> appears
     Examples:
       | login                | password | error message                                               |
-      | olegmarket@gmail.com |          | Password is required.                                       |
-      |                      | lucky125 | Email address is required.                                  |
-      | 123qwer.com          | lucky125 | Please enter a valid email address.                         |
-      |                      |          | Email address is required. * Password is required.          |
-      | 123qwer.com          |          | Please enter a valid email address. * Password is required. |
+      | olegmarket@gmail.com |   '-'       | Password is required.                                       |
+#      |                      | lucky125 | Email address is required.                                  |
+#      | 123qwer.com          | lucky125 | Please enter a valid email address.                         |
+#      |                      |          | Email address is required. * Password is required.          |
+#      | 123qwer.com          |          | Please enter a valid email address. * Password is required. |

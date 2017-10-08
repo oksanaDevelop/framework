@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search results contain keyword",
+        "description": "",
+        "id": "search-functionality;search-results-contain-keyword",
+        "after": [
+          {
+            "result": {
+              "duration": 1525482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.takeScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2330321130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10240444779,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is logged in and opens HomePage",
+            "match": {
+              "location": "SignInSteps.user_is_logged_in_and_opens_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4808443365,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User submit search query Canon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Canon",
+                  "offset": 25
+                }
+              ],
+              "location": "SignInSteps.user_submit_search_query(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671253028,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "All search results contain keyword",
+            "match": {
+              "location": "SignInSteps.all_search_results_contain_keyword()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "parallel/features/search_scenario003_run001_IT.feature"
+  }
+]
