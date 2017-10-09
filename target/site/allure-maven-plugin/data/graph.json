@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "25425c7fdd56e3d9",
+    "name" : "Search results contain keyword",
+    "title" : "Search results contain keyword",
+    "time" : {
+      "start" : 1507585714112,
+      "stop" : 1507585749559,
+      "duration" : 35447
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "16c46714096faa71",
+    "name" : "Login with valid credentials",
+    "title" : "Login with valid credentials",
+    "time" : {
+      "start" : 1507585714290,
+      "stop" : 1507585754946,
+      "duration" : 40656
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

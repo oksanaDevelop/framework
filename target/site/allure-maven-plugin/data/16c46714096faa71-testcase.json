@@ -1,0 +1,101 @@
+{
+  "uid" : "16c46714096faa71",
+  "name" : "Login with valid credentials",
+  "title" : "Login with valid credentials",
+  "time" : {
+    "start" : 1507585714290,
+    "stop" : 1507585754946,
+    "duration" : 40656
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "45995626c505effe",
+    "name" : "Login/Log out functionality",
+    "title" : "Login/Log out functionality"
+  },
+  "steps" : [ {
+    "name" : "Given User opens Home page",
+    "title" : "Given User opens Home page",
+    "time" : {
+      "start" : 1507585714296,
+      "stop" : 1507585724420,
+      "duration" : 10124
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When User signs in with login olegmarket@gmail.com and password lucky125",
+    "title" : "When User signs in with login olegmarket@gmail.com and password lucky125",
+    "time" : {
+      "start" : 1507585724421,
+      "stop" : 1507585737538,
+      "duration" : 13117
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then User signs in successfully",
+    "title" : "Then User signs in successfully",
+    "time" : {
+      "start" : 1507585737538,
+      "stop" : 1507585752628,
+      "duration" : 15090
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-B8NEL8U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "244@DESKTOP-B8NEL8U.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login/Log out functionality"
+  }, {
+    "name" : "story",
+    "value" : "Login with valid credentials"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Login/Log out functionality"
+  } ],
+  "parameters" : [ ]
+}

@@ -37,12 +37,6 @@ public class SignInSteps {
 
     @Then("^User signs in successfully$")
     public void user_signs_in_successfully() {
-        try {
-            Thread.sleep(15000);
-            log.info("Lets wait 10 sec");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         String actualHelloText = homePage.getHelloText();
         String actualUserName = env.getProperty("user.name.walmart");
         Assert.assertThat("'Hello string' should contain proper name", actualHelloText, containsString(actualUserName));

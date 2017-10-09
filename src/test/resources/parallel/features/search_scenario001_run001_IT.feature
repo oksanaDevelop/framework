@@ -2,7 +2,7 @@ Feature: Search functionality
 
 Scenario: Search results contain keyword
 
-Given User is logged in and opens HomePage
+Given User opens Home page
 When User submit search query HP
 Then All search results contain keyword
 

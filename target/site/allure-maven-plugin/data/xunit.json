@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1507585714112,
+    "stop" : 1507585754946,
+    "duration" : 40834
+  },
+  "testSuites" : [ {
+    "uid" : "73b0c627196566ea",
+    "name" : "Search functionality",
+    "title" : "Search functionality",
+    "time" : {
+      "start" : 1507585714112,
+      "stop" : 1507585749559,
+      "duration" : 35447
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "25425c7fdd56e3d9",
+      "name" : "Search results contain keyword",
+      "title" : "Search results contain keyword",
+      "time" : {
+        "start" : 1507585714112,
+        "stop" : 1507585749559,
+        "duration" : 35447
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "45995626c505effe",
+    "name" : "Login/Log out functionality",
+    "title" : "Login/Log out functionality",
+    "time" : {
+      "start" : 1507585714290,
+      "stop" : 1507585754946,
+      "duration" : 40656
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "16c46714096faa71",
+      "name" : "Login with valid credentials",
+      "title" : "Login with valid credentials",
+      "time" : {
+        "start" : 1507585714290,
+        "stop" : 1507585754946,
+        "duration" : 40656
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

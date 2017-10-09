@@ -2,76 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="add Log4j">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario002_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/search_scenario002_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/search_scenario003_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/cucumber.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1283911214.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/jquery.tablesorter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/js/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_parallel-features-login_scenario001_run001_IT-feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_parallel-features-login_scenario002_run001_IT-feature_1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_parallel-features-search_scenario001_run001_IT-feature_2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_parallel-features-search_scenario002_run001_IT-feature_3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_parallel-features-search_scenario003_run001_IT-feature_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report/login_scenario001_run001_IT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report/login_scenario002_run001_IT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report/search_scenario001_run001_IT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report/search_scenario002_run001_IT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report/search_scenario003_run001_IT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/2017-10-07T20-03-22_877-jvmRun1.dump" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario002_run001_IT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario002_run001_IT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario003_run001_IT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario002_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario002_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario003_run001_IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/a5091937-97a2-478a-8695-c4879d37ca73-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/allure-results/f2884cd3-7c39-40e3-8f63-3a822d990e40-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/2017-10-09T14-09-34_960.dumpstream" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/steps/SignInSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/steps/SignInSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" afterPath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log-file.txt" afterPath="$PROJECT_DIR$/src/test/resources/log-file.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario001_run001_IT.feature" afterPath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario001_run001_IT.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario001_run001_IT.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario001_run001_IT.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario001_run001_IT.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario001_run001_IT.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/search.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/search.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/log-file.txt" afterPath="$PROJECT_DIR$/target/test-classes/log-file.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario001_run001_IT.feature" afterPath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario001_run001_IT.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,11 +31,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="326" column="52" lean-forward="true" selection-start-line="326" selection-start-column="52" selection-end-line="326" selection-end-column="52" />
+            <state relative-caret-position="5610">
+              <caret line="334" column="49" lean-forward="false" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -99,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="30" />
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -115,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInSteps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SignInSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            <state relative-caret-position="493">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#667#668#0" expanded="true" />
                 <element signature="e#706#707#0" expanded="true" />
@@ -148,7 +94,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
+              <folding>
+                <marker date="1507585706575" expanded="true" signature="31:172" ph="Scenario: Search results contain keyword" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -192,7 +140,7 @@
       <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="238">
               <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -291,10 +239,10 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/search.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" />
       </list>
     </option>
   </component>
@@ -440,7 +388,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="allure-results" />
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExampleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="allure-maven-plugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1372,7 +1342,7 @@
       <workItem from="1507414730007" duration="6350000" />
       <workItem from="1507421103610" duration="3541000" />
       <workItem from="1507496357282" duration="2691000" />
-      <workItem from="1507573009496" duration="5123000" />
+      <workItem from="1507573009496" duration="7130000" />
     </task>
     <task id="LOCAL-00001" summary="add Allure report">
       <created>1507231077732</created>
@@ -1417,7 +1387,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97034000" />
+    <option name="totallyTimeSpent" value="99041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1718,16 +1688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario002_run001_IT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1835,30 +1795,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario001_run001_IT.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1507585706575" expanded="true" signature="31:172" ph="Scenario: Search results contain keyword" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,16 +1824,45 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="30" />
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="326" column="52" lean-forward="true" selection-start-line="326" selection-start-column="52" selection-end-line="326" selection-end-column="52" />
+        <state relative-caret-position="5610">
+          <caret line="334" column="49" lean-forward="false" selection-start-line="334" selection-start-column="43" selection-end-line="334" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1984,6 +1956,7 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean verify site -Pparallel" />
     <option value="clean verify -Pparallel" />
     <option value="clean test" />
     <option value="clean test -Pparallel" />
