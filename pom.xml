@@ -26,6 +26,30 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                        <!-- -Dcucumber.options="&#45;&#45;plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporterExt"-->
+                        -Dcucumber.options="--plugin utils.AllureReporterExt"
+                        <!-- -Dcucumber.options="&#45;&#45;plugin AllureReporterExt.java"-->
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>1.8.10</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
             <plugin>
                 <groupId>com.trivago.rta</groupId>
                 <artifactId>cucable-plugin</artifactId>
@@ -119,6 +143,30 @@
                             <skipTests>true</skipTests>
                         </configuration>
                     </plugin>
+
+                    <!--<plugin>-->
+                    <!--<groupId>org.apache.maven.plugins</groupId>-->
+                    <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                    <!--<version>2.19.1</version>-->
+                    <!--<configuration>-->
+                        <!--<testFailureIgnore>false</testFailureIgnore>-->
+                        <!--<argLine>-->
+                            <!-- -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar-->
+                            <!--&lt;!&ndash; -Dcucumber.options="&#45;&#45;plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporterExt"&ndash;&gt;-->
+                            <!-- -Dcucumber.options="&#45;&#45;plugin utils.AllureReporterExt"-->
+                            <!--&lt;!&ndash; -Dcucumber.options="&#45;&#45;plugin AllureReporterExt.java"&ndash;&gt;-->
+                        <!--</argLine>-->
+                    <!--</configuration>-->
+                    <!--<dependencies>-->
+                        <!--<dependency>-->
+                            <!--<groupId>org.aspectj</groupId>-->
+                            <!--<artifactId>aspectjweaver</artifactId>-->
+                            <!--<version>1.8.10</version>-->
+                        <!--</dependency>-->
+                    <!--</dependencies>-->
+                <!--</plugin>-->
+
+
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-failsafe-plugin</artifactId>
@@ -140,8 +188,22 @@
                             <reuseForks>false</reuseForks>
                             <argLine>-Dfile.encoding=UTF-8</argLine>
                             <disableXmlReport>true</disableXmlReport>
+                            <testFailureIgnore>false</testFailureIgnore>
+                            <argLine>
+                             -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                             -Dcucumber.options="--plugin utils.AllureReporterExt"
+                            </argLine>
                         </configuration>
+                        <dependencies>
+                        <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>1.8.10</version>
+                        </dependency>
+                        </dependencies>
                     </plugin>
+
+
                     <plugin>
                         <groupId>net.masterthought</groupId>
                         <artifactId>maven-cucumber-reporting</artifactId>
@@ -252,6 +314,7 @@
             <artifactId>cucable-plugin</artifactId>
             <version>0.0.7</version>
         </dependency>
+
         <!--<dependency>-->
             <!--<groupId>org.springframework</groupId>-->
             <!--<artifactId>spring-context</artifactId>-->
@@ -265,6 +328,15 @@
         <!--</dependency>-->
     </dependencies>
 
-
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>ru.yandex.qatools.allure</groupId>
+                <artifactId>allure-maven-plugin</artifactId>
+                <version>2.6</version>
+            </plugin>
+        </plugins>
+    </reporting>
 
 </project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1507576175029" stop="1507576197425" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Search functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1507576177132" stop="1507576197341" status="passed">
+            <name>Search results contain keyword</name>
+            <title>Search results contain keyword</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1507576177136" stop="1507576189142" status="passed">
+                    <name>Given User is logged in and opens HomePage</name>
+                    <title>Given User is logged in and opens HomePage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507576189143" stop="1507576194320" status="passed">
+                    <name>When User submit search query HP</name>
+                    <title>When User submit search query HP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1507576194320" stop="1507576195022" status="passed">
+                    <name>Then All search results contain keyword</name>
+                    <title>Then All search results contain keyword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Search results contain keyword"/>
+                <label name="feature" value="Search functionality"/>
+                <label name="host" value="DESKTOP-B8NEL8U"/>
+                <label name="thread" value="22380@DESKTOP-B8NEL8U.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Search functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

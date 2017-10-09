@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: parallel.runners.search_scenario002_run001_IT
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.578 s - in parallel.runners.search_scenario002_run001_IT
