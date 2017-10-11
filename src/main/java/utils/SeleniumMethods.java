@@ -16,42 +16,42 @@ import java.util.stream.Collectors;
 @Component
 public class SeleniumMethods {
 
-   private WebDriver driver;
-   private final Logger log = Logger.getLogger(SeleniumMethods.class);
+    private WebDriver driver;
+    private final Logger log = Logger.getLogger(SeleniumMethods.class);
 
     @Autowired
-   Environment env;
+    Environment env;
 
-    public WebDriver getDriver(){
+    public WebDriver getDriver() {
         log.info("Methods ask driver");
         return ManageWebDriver.getWebdriver();
     }
 
-    public void openPage(String pageName){
+    public void openPage(String pageName) {
         getDriver().get(pageName);
     }
 
-    public void type(By locator, String text){
+    public void type(By locator, String text) {
         waitVisibilityOfElement(locator).sendKeys(text);
     }
 
-    public WebElement waitVisibilityOfElement(By locator){
+    public WebElement waitVisibilityOfElement(By locator) {
         WebDriverWait wait = new WebDriverWait(getDriver(), Long.valueOf(env.getProperty("wait.sec.element.visibility")));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    public List<WebElement> getElements(By locator){
+    public List<WebElement> getElements(By locator) {
         waitVisibilityOfElement(locator);
-        return getDriver().findElements(locator).stream().filter(element->!element.getText().equals("")).collect(Collectors.toList());
+        return getDriver().findElements(locator).stream().filter(element -> !element.getText().equals("")).collect(Collectors.toList());
     }
 
-    public List<String> getTextOfElements(By locator){
+    public List<String> getTextOfElements(By locator) {
         List<String> list = getElements(locator).stream().map(element -> element.getText()).collect(Collectors.toList());
         System.out.println(list);
         return list;
     }
 
-    public void click(By lccator){
+    public void click(By lccator) {
         waitVisibilityOfElement(lccator).click();
     }
 
@@ -65,24 +65,24 @@ public class SeleniumMethods {
         waitVisibilityOfElement(locator).sendKeys(text);
     }
 
-    public String getText(By locator){
+    public String getText(By locator) {
         return waitVisibilityOfElement(locator).getText();
     }
 
-    public boolean isElementTextEqualToText(String expectedText, By locator){
+    public boolean isElementTextEqualToText(String expectedText, By locator) {
         return getText(locator).equals(expectedText);
     }
 
-    public boolean isErrorMessagePresent(String errorMessage, By locator, int messageNumber){
+    public boolean isErrorMessagePresent(String errorMessage, By locator, int messageNumber) {
         List<String> listErrors = getTextOfElements(locator);
         log.info(String.format("Error should be visible '%s' ", errorMessage));
-        listErrors.forEach((error)->log.info(String.format("Error is visible - '%s' ", error)));
-        return ((listErrors.contains(errorMessage))&&(listErrors.size()==messageNumber));
+        listErrors.forEach((error) -> log.info(String.format("Error is visible - '%s' ", error)));
+        return ((listErrors.contains(errorMessage)) && (listErrors.size() == messageNumber));
     }
 
-    public boolean isErrorMessagesPresent(String errorMessage,By locator){
+    public boolean isErrorMessagesPresent(String errorMessage, By locator) {
 
-        if (errorMessage.contains("*")){
+        if (errorMessage.contains("*")) {
             String[] messageArray = errorMessage.split("\\*");
             boolean res = false;
             for (String s : messageArray) {
@@ -90,11 +90,8 @@ public class SeleniumMethods {
                 if (!res) break;
             }
             return res;
-        }
-        else return isErrorMessagePresent(errorMessage, locator, 1);
+        } else return isErrorMessagePresent(errorMessage, locator, 1);
     }
-
-
 
 
 }

@@ -2,7 +2,6 @@ pages\HomePage.class
 pages\SignInPage.class
 utils\AllureReporterExt.class
 utils\ManageWebDriver.class
-Main.class
-ExampleConfig.class
+SpringClassConfig.class
 utils\GlobalVariables.class
 utils\SeleniumMethods.class

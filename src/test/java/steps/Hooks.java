@@ -13,7 +13,7 @@ public class Hooks {
     private final static Logger log = Logger.getLogger(ManageWebDriver.class);
 
     @After(order = 2)
-    public void takeScreenshot(Scenario scenario){
+    public void takeScreenshot(Scenario scenario) {
         if (scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) ManageWebDriver.getWebdriver()).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");
@@ -22,12 +22,7 @@ public class Hooks {
     }
 
     @After(order = 1)
-    public void closeDriver(Scenario scenario){
+    public void closeDriver(Scenario scenario) {
         ManageWebDriver.closeWebDriver();
     }
-
-
-
-
-
 }

@@ -32,16 +32,16 @@ public class HomePage {
         seleniumMethods.click(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
     }
 
-    public String getHelloText(){
+    public String getHelloText() {
         return seleniumMethods.getText(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
     }
 
-    public void submitQuery(String query){
+    public void submitQuery(String query) {
         seleniumMethods.type(By.id(SEARCH_FIELD_ID), query);
         seleniumMethods.click(By.xpath(BUTTON_SEARCH_XPATH));
     }
 
-    public List<String> getProductNames(){
+    public List<String> getProductNames() {
         return seleniumMethods.getTextOfElements(By.xpath(LINK_PRODUCTS_NAME_XPATH));
     }
 

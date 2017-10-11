@@ -11,14 +11,13 @@ public class SignInPage {
     private final String FIELD_PASSWORD_NAME = "password";
     private final String BUTTON_SIGN_IN_XPATH = "//button[text() = 'Sign In']";
     private final String ERORR_TEXT_CLASS = "ada-error-text";
-    private final String ERORR_CREDENTIAL_DOES_NOT_MATCH_XPATH = "//span[text() ='Your password and email do not match. Please try again or ']";
 
 
     @Autowired
     private SeleniumMethods seleniumMethods;
 
     public SignInPage fillEmailField(String email){
-        if (email.equals("''")) email ="";
+        if (email.equals("-")) email ="";
         seleniumMethods.fillField(By.name(FIELD_EMAIL_NAME), email);
         return this;
     }

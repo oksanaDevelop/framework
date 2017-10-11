@@ -9,7 +9,6 @@ import java.util.Map;
 
 public class GlobalVariables {
 
-   // private static ThreadLocal<Map<String, Object>> globalVariables = new ThreadLocal<>().set(new HashMap<String, Object>());
     private static ThreadLocal<Map<String, Object>> globalVariables =new ThreadLocal<>();
     private final static Logger log = Logger.getLogger(GlobalVariables.class);
 

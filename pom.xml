@@ -36,9 +36,7 @@
                     <testFailureIgnore>false</testFailureIgnore>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
-                        <!-- -Dcucumber.options="&#45;&#45;plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporterExt"-->
                         -Dcucumber.options="--plugin utils.AllureReporterExt"
-                        <!-- -Dcucumber.options="&#45;&#45;plugin AllureReporterExt.java"-->
                     </argLine>
                 </configuration>
                 <dependencies>
@@ -126,9 +124,11 @@
                                     <goal>parallel</goal>
                                 </goals>
                                 <configuration>
-                                    <sourceRunnerTemplateFile>src/test/resources/parallel/cucable.template</sourceRunnerTemplateFile>
+                                    <sourceRunnerTemplateFile>src/test/resources/parallel/cucable.template
+                                    </sourceRunnerTemplateFile>
                                     <sourceFeatures>src/test/resources/features</sourceFeatures>
-                                    <generatedFeatureDirectory>src/test/resources/parallel/features</generatedFeatureDirectory>
+                                    <generatedFeatureDirectory>src/test/resources/parallel/features
+                                    </generatedFeatureDirectory>
                                     <generatedRunnerDirectory>src/test/java/parallel/runners</generatedRunnerDirectory>
                                     <numberOfTestRuns>1</numberOfTestRuns>
                                 </configuration>
@@ -143,29 +143,6 @@
                             <skipTests>true</skipTests>
                         </configuration>
                     </plugin>
-
-                    <!--<plugin>-->
-                    <!--<groupId>org.apache.maven.plugins</groupId>-->
-                    <!--<artifactId>maven-surefire-plugin</artifactId>-->
-                    <!--<version>2.19.1</version>-->
-                    <!--<configuration>-->
-                        <!--<testFailureIgnore>false</testFailureIgnore>-->
-                        <!--<argLine>-->
-                            <!-- -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar-->
-                            <!--&lt;!&ndash; -Dcucumber.options="&#45;&#45;plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporterExt"&ndash;&gt;-->
-                            <!-- -Dcucumber.options="&#45;&#45;plugin utils.AllureReporterExt"-->
-                            <!--&lt;!&ndash; -Dcucumber.options="&#45;&#45;plugin AllureReporterExt.java"&ndash;&gt;-->
-                        <!--</argLine>-->
-                    <!--</configuration>-->
-                    <!--<dependencies>-->
-                        <!--<dependency>-->
-                            <!--<groupId>org.aspectj</groupId>-->
-                            <!--<artifactId>aspectjweaver</artifactId>-->
-                            <!--<version>1.8.10</version>-->
-                        <!--</dependency>-->
-                    <!--</dependencies>-->
-                <!--</plugin>-->
-
 
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -190,16 +167,16 @@
                             <disableXmlReport>true</disableXmlReport>
                             <testFailureIgnore>false</testFailureIgnore>
                             <argLine>
-                             -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
-                             -Dcucumber.options="--plugin utils.AllureReporterExt"
+                                -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                                -Dcucumber.options="--plugin utils.AllureReporterExt"
                             </argLine>
                         </configuration>
                         <dependencies>
-                        <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>1.8.10</version>
-                        </dependency>
+                            <dependency>
+                                <groupId>org.aspectj</groupId>
+                                <artifactId>aspectjweaver</artifactId>
+                                <version>1.8.10</version>
+                            </dependency>
                         </dependencies>
                     </plugin>
 
@@ -229,24 +206,24 @@
                         <version>3.0.0-M1</version>
                         <dependencies>
                             <!--<dependency>-->
-                                <!--<groupId>com.trivago.rta</groupId>-->
-                                <!--<artifactId>your-custom-maven-fail-rule</artifactId>-->
-                                <!--<version>${fail.rule.version}</version>-->
+                            <!--<groupId>com.trivago.rta</groupId>-->
+                            <!--<artifactId>your-custom-maven-fail-rule</artifactId>-->
+                            <!--<version>${fail.rule.version}</version>-->
                             <!--</dependency>-->
                         </dependencies>
                         <!--<executions>-->
-                            <!--<execution>-->
-                                <!--<phase>post-integration-test</phase>-->
-                                <!--<goals>-->
-                                    <!--<goal>enforce</goal>-->
-                                <!--</goals>-->
-                                <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<rules>&ndash;&gt;-->
-                                        <!--&lt;!&ndash;<yourRule implementation="com.example.YourFailRule"/>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;</rules>&ndash;&gt;-->
-                                    <!--&lt;!&ndash;<fail>true</fail>&ndash;&gt;-->
-                                <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
-                            <!--</execution>-->
+                        <!--<execution>-->
+                        <!--<phase>post-integration-test</phase>-->
+                        <!--<goals>-->
+                        <!--<goal>enforce</goal>-->
+                        <!--</goals>-->
+                        <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<rules>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<yourRule implementation="com.example.YourFailRule"/>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</rules>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<fail>true</fail>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
+                        <!--</execution>-->
                         <!--</executions>-->
                     </plugin>
                 </plugins>
@@ -254,7 +231,7 @@
         </profile>
     </profiles>
 
-     <dependencies>
+    <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -314,18 +291,12 @@
             <artifactId>cucable-plugin</artifactId>
             <version>0.0.7</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>LATEST</version>
+        </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>spring-context</artifactId>-->
-            <!--<version>4.3.11.RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>spring-context</artifactId>-->
-            <!--<version>4.3.11.RELEASE</version>-->
-        <!--</dependency>-->
     </dependencies>
 
     <reporting>

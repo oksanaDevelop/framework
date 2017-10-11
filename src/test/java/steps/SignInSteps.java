@@ -4,13 +4,14 @@ import cucumber.api.java.en.*;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import static org.hamcrest.CoreMatchers.*;
 
 import org.springframework.core.env.Environment;
 import pages.HomePage;
 import pages.SignInPage;
 import utils.GlobalVariables;
-import utils.ManageWebDriver;
+
 
 public class SignInSteps {
 
@@ -21,7 +22,6 @@ public class SignInSteps {
     @Autowired
     Environment env;
     private final static Logger log = Logger.getLogger(SignInSteps.class);
-
 
 
     @Given("^User opens Home page$")
@@ -49,21 +49,21 @@ public class SignInSteps {
     }
 
     @Given("^User is logged in and opens HomePage$")
-    public void user_is_logged_in_and_opens_HomePage()  {
+    public void user_is_logged_in_and_opens_HomePage() {
         user_opens_Home_page();
         user_signs_in_with_login_and_password(env.getProperty("user.email.walmart"), env.getProperty("user.password.walmart"));
     }
 
     @When("^User submit search query (.*)$")
     public void user_submit_search_query(String searchQuery) {
-         homePage.submitQuery(searchQuery);
+        homePage.submitQuery(searchQuery);
         GlobalVariables.setStringVariable("searchVariable", searchQuery);
     }
 
     @Then("^All search results contain keyword$")
-    public void all_search_results_contain_keyword()  {
+    public void all_search_results_contain_keyword() {
         homePage.getProductNames().forEach(name -> {
-            Assert.assertThat(name, containsString(GlobalVariables.getStringVariable("searchVariable") ));
+            Assert.assertThat(name, containsString(GlobalVariables.getStringVariable("searchVariable")));
         });
     }
 

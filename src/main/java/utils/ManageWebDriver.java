@@ -15,28 +15,27 @@ import org.springframework.core.env.Environment;
 @Component
 public class ManageWebDriver {
 
-    private static  WebDriver driver;
+    private static WebDriver driver;
     private final static Logger log = Logger.getLogger(ManageWebDriver.class);
     private static Environment env;
 
     @Autowired
-    ManageWebDriver(Environment env){
+    ManageWebDriver(Environment env) {
         this.env = env;
     }
 
 
-    public  static  WebDriver getWebdriver() {
+    public static WebDriver getWebdriver() {
         driver = GlobalVariables.getWebDriver();
         if (driver == null) {
             driver = initializeWebDriver();
-            driver.manage().window().setSize(new Dimension(Integer.valueOf(env.getProperty("browser.dimensions.width")),Integer.valueOf(env.getProperty("browser.dimensions.height"))));
+            driver.manage().window().setSize(new Dimension(Integer.valueOf(env.getProperty("browser.dimensions.width")), Integer.valueOf(env.getProperty("browser.dimensions.height"))));
         }
         return driver;
     }
 
-    private static  WebDriver initializeWebDriver() {
-        WebDriver driver;
-        String driverType =env.getProperty("browser.default");
+    private static WebDriver initializeWebDriver() {
+        String driverType = env.getProperty("browser.default");
 
         switch (driverType) {
             case "chrome":
@@ -61,11 +60,10 @@ public class ManageWebDriver {
     }
 
     public static void closeWebDriver() {
-       driver = GlobalVariables.getWebDriver();
+        driver = GlobalVariables.getWebDriver();
         if (driver == null) {
             log.info("Driver is NULL");
-        }
-      else {
+        } else {
             driver.close();
             log.info("Close driver");
             GlobalVariables.setWebdriver(null);

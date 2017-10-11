@@ -1,5 +1,12 @@
-parallel\runners\login_scenario001_run001_IT.class
+parallel\runners\login_scenario005_run001_IT.class
+parallel\runners\search_scenario003_run001_IT.class
+parallel\runners\login_scenario003_run001_IT.class
+parallel\runners\login_scenario006_run001_IT.class
+parallel\runners\search_scenario002_run001_IT.class
+parallel\runners\login_scenario002_run001_IT.class
 steps\SignInSteps.class
-parallel\runners\search_scenario001_run001_IT.class
 RunCukesTest.class
 steps\Hooks.class
+parallel\runners\login_scenario001_run001_IT.class
+parallel\runners\login_scenario004_run001_IT.class
+parallel\runners\search_scenario001_run001_IT.class
