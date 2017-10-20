@@ -8,9 +8,11 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import pojo.RestResponse;
 import pojo.Result;
+import sun.rmi.runtime.Log;
 
 import java.io.IOException;
 
@@ -19,17 +21,22 @@ import java.util.Map;
 @Component
 public class Api {
 
+    private final static Logger log = Logger.getLogger(Api.class);
+
 
     public static Response getGetResponse(String endpointURL){
         RequestSpecification httpRequest = RestAssured.given();
-        return httpRequest.request(Method.GET, endpointURL);
+        Response response = httpRequest.request(Method.GET, endpointURL);
+        log.info(response.print());
+        return response;
     }
 
-    private static Response getPostResponse(String endpointURL, String bodyJson){
+    public static Response getPostResponse(String endpointURL, String bodyJson){
         RequestSpecification httpRequest = RestAssured.given().body(bodyJson);
-        return httpRequest.request(Method.POST, endpointURL);
+        Response response = httpRequest.request(Method.POST, endpointURL);
+        log.info(String.format("%n ***** %n POST response to endpoint %s with JSON in body %s is %n %s", endpointURL, bodyJson, response.asString()).replace('`','"'));
+        return response;
     }
-
 
     private static Response getGetResponseWResource(String baseURL, String resourceName){
         String endpointURL = baseURL+"/"+resourceName;
@@ -148,9 +155,11 @@ public class Api {
 //        System.out.println(restResponse);
 //        System.out.println(restResponseOur.compareTo(restResponse));
 
-        Response response = getPostResponse();
+       // Response response = getPostResponse();
+        Response response = getPostResponse("https://httpbin.org/post", "{`mybody`:`body`}".replace('`', '"'));
+       // Response response = getPostResponse("https://httpbin.org/post", "{\"name\":\"United States of America\",\"alpha3_code\":\"USA\",\"alpha2_code\":\"US\"}");
         System.out.println("******");
-        System.out.println(response.print());
+        System.out.println(response.body().asString());
     }
 
 

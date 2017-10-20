@@ -134,7 +134,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-interpolation:1.21" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:2.10" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-jdk14:1.8.0-alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-jdk14:1.8.0-beta0" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:3.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.9" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:2.4.9" level="project" />
@@ -167,5 +167,6 @@
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.9" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20080701" level="project" />
   </component>
 </module>

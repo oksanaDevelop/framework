@@ -3,18 +3,13 @@ package pojo;
 
 import java.util.Arrays;
 
-public class RestResponse implements Comparable {
+public class RestResponse  {
     String[] messages;
     Result result;
     int responseCode;
-    String name;
-    String alpha2_code;
-    String alpha3_code;
 
 
     public RestResponse(){
-        System.out.println("fuck");
-
     }
 
 
@@ -22,16 +17,12 @@ public class RestResponse implements Comparable {
         this.messages= new String[]{messages};
         this.result = result;
         this.responseCode = responseCode;
-        System.out.println("fuck");
-
     }
 
-    public RestResponse(int responseCode, String name, String alpha2_code, String alpha3_code, String... messages) {
-        this.name = name;
+    public RestResponse(String messages, int responseCode, String name, String alpha2_code, String alpha3_code) {
+        this.messages= new String[]{messages};
         this.result = new Result(name, alpha2_code, alpha3_code);
         this.responseCode = responseCode;
-        this.messages= messages;
-
     }
 
     public String[] getMessages() {
@@ -40,8 +31,6 @@ public class RestResponse implements Comparable {
 
     public void setMessages(String[] messages) {
         this.messages = messages;
-        System.out.println("fuck");
-
     }
 
     public Result getResult() {
@@ -60,7 +49,6 @@ public class RestResponse implements Comparable {
         this.responseCode = responseCode;
     }
 
-
     @Override
     public String toString() {
         return "RestResponse{" +
@@ -71,15 +59,12 @@ public class RestResponse implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        RestResponse restResponse = (RestResponse) o;
-        int res = getMessages()[0].compareTo(restResponse.getMessages()[0]);
-        if (res!=0)
-            return res;
-        res = responseCode-restResponse.getResponseCode();
-        if (res!=0)
-            return res;
-        return getResult().compareTo(restResponse.getResult());
+    public boolean equals(Object obj) {
+        RestResponse restResponse = (RestResponse) obj;
+        boolean messageEquality = getMessages()[0].equals(restResponse.getMessages()[0]);
+        boolean codeEquality = (getResponseCode()==(restResponse.getResponseCode()));
+        boolean resultEquality = getResult().equals(restResponse.getResult());
+        return (messageEquality&&codeEquality&&resultEquality);
     }
 }
 

@@ -1,7 +1,7 @@
 package pojo;
 
 
-public class Result implements Comparable {
+public class Result {
     private String name;
     private String alpha2_code;
     private String alpha3_code;
@@ -41,18 +41,10 @@ public class Result implements Comparable {
     }
 
 
-
     @Override
-    public int compareTo(Object o) {
-        Result result = (Result)o;
-        int res = getName().compareTo(result.getName());
-        if(res!=0)
-            return res;
-        res = getAlpha2_code().compareTo(result.getAlpha2_code());
-        if(res!=0)
-            return res;
-        res = getAlpha3_code().compareTo(result.getAlpha3_code());
-        return res;
+    public boolean equals(Object obj) {
+        Result result = (Result)obj;
+        return (getName().equals(result.getName())&&getAlpha2_code().equals(result.getAlpha2_code())&&getAlpha3_code().equals(result.getAlpha3_code()));
     }
 
     @Override
