@@ -47,9 +47,9 @@ public class HomePage {
 
 //    public void isPageLoaded() {
 //        List<By> elemtsList = new ArrayList<>();
-//        elemtsList.add(By.id(DROPDOWN_MY_ACCOUNT_ID));
-//        elemtsList.add(By.linkText(LINK_SIGN_IN_LINK));
-//        elemtsList.add(By.id(BUTTON_SEARCH_ID));
+//        elemtsList.save(By.id(DROPDOWN_MY_ACCOUNT_ID));
+//        elemtsList.save(By.linkText(LINK_SIGN_IN_LINK));
+//        elemtsList.save(By.id(BUTTON_SEARCH_ID));
 //        seleniumMethods.isPageLoaded(elemtsList);
 //    }
 

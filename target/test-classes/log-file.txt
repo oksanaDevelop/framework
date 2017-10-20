@@ -1,7 +1,11 @@
-2017-10-11 11:18:37 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@787178b1: startup date [Wed Oct 11 11:18:37 CDT 2017]; root of context hierarchy
-2017-10-11 11:18:37 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-11 11:18:39 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-11 11:18:40 INFO  SeleniumMethods:26 - Methods ask driver
-2017-10-11 11:18:40 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-11 11:18:42 INFO  ManageWebDriver:55 - New chrome driver is created
-2017-10-11 11:18:42 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-19 19:06:22 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2462cb01: startup date [Thu Oct 19 19:06:22 CDT 2017]; root of context hierarchy
+2017-10-19 19:06:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2017-10-19 19:06:23 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-19 19:06:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-10-19 19:06:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-10-19 19:06:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-19 19:06:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-10-19 19:06:24 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-10-19 19:07:53 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-19 19:07:53 INFO  ManageWebDriver:65 - Driver is NULL. Nothing to close
+2017-10-19 19:07:53 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@2462cb01: startup date [Thu Oct 19 19:06:22 CDT 2017]; root of context hierarchy

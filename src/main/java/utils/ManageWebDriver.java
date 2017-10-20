@@ -62,7 +62,7 @@ public class ManageWebDriver {
     public static void closeWebDriver() {
         driver = GlobalVariables.getWebDriver();
         if (driver == null) {
-            log.info("Driver is NULL");
+            log.info("Driver is NULL. Nothing to close");
         } else {
             driver.close();
             log.info("Close driver");

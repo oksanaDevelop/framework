@@ -43,6 +43,14 @@ public class GlobalVariables {
             return (String) globalVariables.get().get(key);
     }
 
+    public static void setObjectVariable(String key, Object value){
+        globalVariables.get().put(key, value);
+    }
+
+    public static Object getObjectVariable(String key){
+        return  globalVariables.get().get(key);
+    }
+
     public static void removeStringVariable(String key){
         if (globalVariables.get().containsKey(key)) globalVariables.get().remove(key);
     }
