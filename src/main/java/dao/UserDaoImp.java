@@ -49,20 +49,20 @@ public class UserDaoImp implements UserDao {
         int res = query.executeUpdate();
         tx.commit();
         session.close();
-         return res;
+        return res;
     }
 
     @Override
-    public User getUserByNameUnique(String name){
+    public User getUserByNameUnique(String name) {
         Session session = this.sessionFactory.openSession();
         Query query = session.createQuery("from User where name= :name");
         query.setParameter("name", name);
-        return (User)query.uniqueResult();
+        return (User) query.uniqueResult();
     }
 
     @Override
     @SuppressWarnings("unchecked")
-    public List<User> getUserByNameList(String name){
+    public List<User> getUserByNameList(String name) {
         Session session = this.sessionFactory.openSession();
         Query query = session.createQuery("from User where name= :name");
         query.setParameter("name", name);

@@ -45,12 +45,4 @@ public class HomePage {
         return seleniumMethods.getTextOfElements(By.xpath(LINK_PRODUCTS_NAME_XPATH));
     }
 
-//    public void isPageLoaded() {
-//        List<By> elemtsList = new ArrayList<>();
-//        elemtsList.save(By.id(DROPDOWN_MY_ACCOUNT_ID));
-//        elemtsList.save(By.linkText(LINK_SIGN_IN_LINK));
-//        elemtsList.save(By.id(BUTTON_SEARCH_ID));
-//        seleniumMethods.isPageLoaded(elemtsList);
-//    }
-
 }

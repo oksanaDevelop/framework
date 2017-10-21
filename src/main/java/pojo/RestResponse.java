@@ -3,24 +3,19 @@ package pojo;
 
 import java.util.Arrays;
 
-public class RestResponse  {
+public class RestResponse {
     String[] messages;
     Result result;
     int responseCode;
 
-
-    public RestResponse(){
-    }
-
-
     public RestResponse(String messages, Result result, int responseCode) {
-        this.messages= new String[]{messages};
+        this.messages = new String[]{messages};
         this.result = result;
         this.responseCode = responseCode;
     }
 
     public RestResponse(String messages, int responseCode, String name, String alpha2_code, String alpha3_code) {
-        this.messages= new String[]{messages};
+        this.messages = new String[]{messages};
         this.result = new Result(name, alpha2_code, alpha3_code);
         this.responseCode = responseCode;
     }
@@ -62,9 +57,9 @@ public class RestResponse  {
     public boolean equals(Object obj) {
         RestResponse restResponse = (RestResponse) obj;
         boolean messageEquality = getMessages()[0].equals(restResponse.getMessages()[0]);
-        boolean codeEquality = (getResponseCode()==(restResponse.getResponseCode()));
+        boolean codeEquality = (getResponseCode() == (restResponse.getResponseCode()));
         boolean resultEquality = getResult().equals(restResponse.getResult());
-        return (messageEquality&&codeEquality&&resultEquality);
+        return (messageEquality && codeEquality && resultEquality);
     }
 }
 

@@ -1,12 +1,37 @@
-2017-10-20 17:32:32 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4470f8a6: startup date [Fri Oct 20 17:32:32 CDT 2017]; root of context hierarchy
-2017-10-20 17:32:32 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-20 17:32:32 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-20 17:32:33 INFO  Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2017-10-20 17:32:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
-2017-10-20 17:32:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2017-10-20 17:32:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2017-10-20 17:32:33 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-2017-10-20 17:32:35 INFO  Api:37 - 
+2017-10-21 18:49:09 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fa36558: startup date [Sat Oct 21 18:49:09 CDT 2017]; root of context hierarchy
+2017-10-21 18:49:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2017-10-21 18:49:09 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-21 18:49:10 INFO  Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-10-21 18:49:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-10-21 18:49:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-21 18:49:10 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-10-21 18:49:10 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-10-21 18:49:12 INFO  Api:26 - 
+ ***** 
+ GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
+ {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+2017-10-21 18:49:12 INFO  Api:28 - {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+2017-10-21 18:49:12 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-21 18:49:12 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
+2017-10-21 18:49:12 INFO  Api:35 - 
  ***** 
  POST response to endpoint https://httpbin.org/post with JSON in body {"mybody":"body"} is 
  {
@@ -30,6 +55,6 @@
   "url": "https://httpbin.org/post"
 }
 
-2017-10-20 17:32:35 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-20 17:32:35 INFO  ManageWebDriver:65 - Driver is NULL. Nothing to close
-2017-10-20 17:32:35 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@4470f8a6: startup date [Fri Oct 20 17:32:32 CDT 2017]; root of context hierarchy
+2017-10-21 18:49:12 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-21 18:49:12 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
+2017-10-21 18:49:12 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@fa36558: startup date [Sat Oct 21 18:49:09 CDT 2017]; root of context hierarchy

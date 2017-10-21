@@ -13,7 +13,6 @@ import utils.Inputs;
 
 import java.util.Map;
 
-import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.StringContains.containsString;
 
 public class ApiSteps {
@@ -23,7 +22,7 @@ public class ApiSteps {
 
     @When("^User sends GET request to endpoint (.*)$")
     public void user_sends_Get_request_to_endpoint_http_services_groupkt_com_country(String endpoint)  {
-        Response response = api.getGetResponse(endpoint);
+        Response response = Api.getGetResponse(endpoint);
         GlobalVariables.setObjectVariable("response", response);
     }
 
@@ -58,17 +57,8 @@ public class ApiSteps {
             value = data.get("value");
         }
         expectedJSON = Inputs.twoStringToJson(key, value);
-        System.out.println("!!!! - " + expectedJSON);
-        Assert.assertEquals("Response codes should be equal", expectedStatusCode, response.getStatusCode());
-       // Assert.assertThat("Response body should contain the expected JSON", response.asString(), containsString(expectedJSON));
 
-        String s = response.asString();
-        System.out.println("sssss - " + s);
-
-        Assert.assertTrue(s.contains(expectedJSON));
-    //   Assert.assertTrue(s.contains(expectedJSON));
-
-      //  Assert.assertThat("Response body should contain the expected JSON", response.asString(), containsString(expectedJSON));
+        Assert.assertEquals("Status code should be equal",expectedStatusCode, response.getStatusCode());
         Assert.assertThat("Response body should contain the expected JSON", response.asString(), containsString(expectedJSON));
     }
 }

@@ -21,7 +21,7 @@ public class ManageWebDriver {
 
     @Autowired
     ManageWebDriver(Environment env) {
-        this.env = env;
+        ManageWebDriver.env = env;
     }
 
 
@@ -31,6 +31,10 @@ public class ManageWebDriver {
             driver = initializeWebDriver();
             driver.manage().window().setSize(new Dimension(Integer.valueOf(env.getProperty("browser.dimensions.width")), Integer.valueOf(env.getProperty("browser.dimensions.height"))));
         }
+        return driver;
+    }
+
+    public static WebDriver getDriverVariable() {
         return driver;
     }
 

@@ -6,10 +6,6 @@ public class Result {
     private String alpha2_code;
     private String alpha3_code;
 
-    public Result() {
-
-    }
-
     public Result(String name, String alpha2_code, String alpha3_code) {
         this.name = name;
         this.alpha2_code = alpha2_code;
@@ -40,11 +36,10 @@ public class Result {
         this.alpha3_code = alpha3_code;
     }
 
-
     @Override
     public boolean equals(Object obj) {
-        Result result = (Result)obj;
-        return (getName().equals(result.getName())&&getAlpha2_code().equals(result.getAlpha2_code())&&getAlpha3_code().equals(result.getAlpha3_code()));
+        Result result = (Result) obj;
+        return (getName().equals(result.getName()) && getAlpha2_code().equals(result.getAlpha2_code()) && getAlpha3_code().equals(result.getAlpha3_code()));
     }
 
     @Override

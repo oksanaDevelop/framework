@@ -16,23 +16,23 @@ public class SignInPage {
     @Autowired
     private SeleniumMethods seleniumMethods;
 
-    public SignInPage fillEmailField(String email){
-        if (email.equals("-")) email ="";
+    public SignInPage fillEmailField(String email) {
+        if (email.equals("-")) email = "";
         seleniumMethods.fillField(By.name(FIELD_EMAIL_NAME), email);
         return this;
     }
 
-    public SignInPage fillPasswordField(String password){
-        if (password.equals("''")) password ="";
+    public SignInPage fillPasswordField(String password) {
+        if (password.equals("''")) password = "";
         seleniumMethods.fillField(By.name(FIELD_PASSWORD_NAME), password);
         return this;
     }
 
-    public boolean isErrorVisible(String errorMessage){
+    public boolean isErrorVisible(String errorMessage) {
         return seleniumMethods.isErrorMessagesPresent(errorMessage, By.className(ERORR_TEXT_CLASS));
     }
 
-    public void clickSignInButton(){
+    public void clickSignInButton() {
         seleniumMethods.click(By.xpath(BUTTON_SIGN_IN_XPATH));
     }
 
