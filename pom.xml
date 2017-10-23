@@ -10,8 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <aspectj.version>1.8.10</aspectj.version>
-        <quantity.threads>2</quantity.threads>
+        <quantity.threads>3</quantity.threads>
     </properties>
 
     <build>
@@ -24,11 +23,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
             </plugin>
 
             <plugin>
@@ -118,17 +112,6 @@
                             </execution>
                         </executions>
                     </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>2.20.1</version>
-                        <configuration>
-                            <skipTests>true</skipTests>
-                        </configuration>
-                    </plugin>
-
-
-
 
                     <plugin>
                         <groupId>net.masterthought</groupId>
@@ -154,27 +137,6 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-enforcer-plugin</artifactId>
                         <version>3.0.0-M1</version>
-                        <dependencies>
-                            <!--<dependency>-->
-                            <!--<groupId>com.trivago.rta</groupId>-->
-                            <!--<artifactId>your-custom-maven-fail-rule</artifactId>-->
-                            <!--<version>${fail.rule.version}</version>-->
-                            <!--</dependency>-->
-                        </dependencies>
-                        <!--<executions>-->
-                        <!--<execution>-->
-                        <!--<phase>post-integration-test</phase>-->
-                        <!--<goals>-->
-                        <!--<goal>enforce</goal>-->
-                        <!--</goals>-->
-                        <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<rules>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<yourRule implementation="com.example.YourFailRule"/>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</rules>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<fail>true</fail>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
-                        <!--</execution>-->
-                        <!--</executions>-->
                     </plugin>
                 </plugins>
             </build>
@@ -199,6 +161,11 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>com.trivago.rta</groupId>
+            <artifactId>cucable-plugin</artifactId>
+            <version>0.0.7</version>
+        </dependency>
+        <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
@@ -209,6 +176,16 @@
             <artifactId>cucumber-spring</artifactId>
             <version>1.2.5</version>
             <!--<scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.5</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -227,24 +204,6 @@
             <version>4.3.11.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-
-
-        <dependency>
-            <groupId>com.trivago.rta</groupId>
-            <artifactId>cucable-plugin</artifactId>
-            <version>0.0.7</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jdk14</artifactId>
-            <version>LATEST</version>
-        </dependency>
-
 
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
@@ -259,26 +218,11 @@
         </dependency>
 
 
-
         <!-- Spring ORM support -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
             <version>4.3.11.RELEASE</version>
-        </dependency>
-
-        <!-- Logging with SLF4J & LogBack -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.25</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
-            <scope>runtime</scope>
         </dependency>
 
         <!-- Hibernate -->
@@ -292,7 +236,6 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.2.11.Final</version>
         </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -303,26 +246,6 @@
             <artifactId>commons-dbcp</artifactId>
             <version>1.4</version>
         </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20080701</version>
-        </dependency>
-
-        <dependency>
-            <groupId>net.masterthought</groupId>
-            <artifactId>cucumber-reporting</artifactId>
-            <version>3.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-core</artifactId>
-            <version>1.2.5</version>
-        </dependency>
-
-
     </dependencies>
-
-
 
 </project>
