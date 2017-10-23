@@ -3,6 +3,7 @@ package utils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -101,6 +102,11 @@ public class SeleniumMethods {
             }
             return res;
         } else return isErrorMessagePresent(errorMessage, locator, 1);
+    }
+
+    public void actionMoveToElement(By locator){
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(waitVisibilityOfElement(locator)).build().perform();
     }
 
 

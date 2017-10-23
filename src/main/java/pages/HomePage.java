@@ -30,6 +30,7 @@ public class HomePage {
     }
 
     public void clickSighInLink() {
+        seleniumMethods.actionMoveToElement(By.id(DROPDOWN_MY_ACCOUNT_ID));
         seleniumMethods.click(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
     }
 

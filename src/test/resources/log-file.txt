@@ -1,72 +1,30 @@
-2017-10-23 13:39:58 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fd2ccd: startup date [Mon Oct 23 13:39:58 CDT 2017]; root of context hierarchy
-2017-10-23 13:39:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 13:39:59 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 13:40:01 INFO  Api:25 - 
- ***** 
- GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
- {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-2017-10-23 13:40:01 INFO  Api:27 - {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-2017-10-23 13:40:01 INFO  ManageWebDriver:17 - Take a screenshot
-2017-10-23 13:40:01 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 13:40:01 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
-2017-10-23 13:40:01 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6befbb12: startup date [Mon Oct 23 13:40:01 CDT 2017]; root of context hierarchy
-2017-10-23 13:40:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 13:40:01 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 13:40:02 INFO  Api:34 - 
- ***** 
- POST response to endpoint https://httpbin.org/post with JSON in body {"mybody":"body"} is 
- {
-  "args": {}, 
-  "data": "{\"mybody\":\"body\"}", 
-  "files": {}, 
-  "form": {}, 
-  "headers": {
-    "Accept": "*/*", 
-    "Accept-Encoding": "gzip,deflate", 
-    "Connection": "close", 
-    "Content-Length": "17", 
-    "Content-Type": "text/plain; charset=ISO-8859-1", 
-    "Host": "httpbin.org", 
-    "User-Agent": "Apache-HttpClient/4.5.3 (Java/1.8.0_131)"
-  }, 
-  "json": {
-    "mybody": "body"
-  }, 
-  "origin": "71.85.240.131", 
-  "url": "https://httpbin.org/post"
-}
-
-2017-10-23 13:40:02 INFO  ManageWebDriver:17 - Take a screenshot
-2017-10-23 13:40:02 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 13:40:02 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
-2017-10-23 13:40:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@18e4551: startup date [Mon Oct 23 13:40:02 CDT 2017]; root of context hierarchy
-2017-10-23 13:40:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 13:40:02 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 13:40:02 INFO  ManageWebDriver:17 - Take a screenshot
-2017-10-23 13:40:02 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 13:40:02 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
-2017-10-23 13:40:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4afcae7: startup date [Mon Oct 23 13:40:02 CDT 2017]; root of context hierarchy
-2017-10-23 13:40:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 13:40:02 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 13:40:02 INFO  SeleniumMethods:27 - Methods ask driver
-2017-10-23 13:40:02 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 13:40:04 INFO  ManageWebDriver:59 - New chrome driver is created
-2017-10-23 13:40:04 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-23 14:12:56 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65b3f4a4: startup date [Mon Oct 23 14:12:56 CDT 2017]; root of context hierarchy
+2017-10-23 14:12:56 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2017-10-23 14:12:57 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-23 14:12:58 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:12:58 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:00 INFO  ManageWebDriver:59 - New chrome driver is created
+2017-10-23 14:13:00 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-23 14:13:06 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:06 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:06 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:06 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:06 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:06 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:08 INFO  SeleniumMethods:73 - Fill text 'luckyinvestor.info@gmail.com' into field with locator 'By.name: email'
+2017-10-23 14:13:08 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:08 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:09 INFO  SeleniumMethods:73 - Fill text '911911' into field with locator 'By.name: password'
+2017-10-23 14:13:09 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:09 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:09 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:09 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:09 INFO  SeleniumMethods:28 - Methods ask driver
+2017-10-23 14:13:09 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:14 INFO  SeleniumMethods:79 - Text of element By.xpath: .//span[@class='ellipsify-name'] is Tony
+2017-10-23 14:13:14 INFO  ManageWebDriver:17 - Take a screenshot
+2017-10-23 14:13:14 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2017-10-23 14:13:16 INFO  ManageWebDriver:72 - Close driver
+2017-10-23 14:13:16 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2017-10-23 14:13:16 INFO  GlobalVariables:35 - Webdriver is NULL
+2017-10-23 14:13:16 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@65b3f4a4: startup date [Mon Oct 23 14:12:56 CDT 2017]; root of context hierarchy
