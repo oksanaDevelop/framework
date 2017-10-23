@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.8.10</aspectj.version>
-        <quantity.threads>1</quantity.threads>
+        <quantity.threads>2</quantity.threads>
     </properties>
 
     <build>
