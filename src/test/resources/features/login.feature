@@ -15,4 +15,4 @@ Feature: Login/Log out functionality
       |                      | lucky125 | Email address is required.                                  |
       | 123qwer.com          | lucky125 | Please enter a valid email address.                         |
       |                      | -        | Email address is required. * Password is required.          |
-      | 123qwer.com          | -        | Please enter a valid email address. * Password is required. |
+      | 123qwert.com         | -        | Please enter a valid email address. * Password is required. |
