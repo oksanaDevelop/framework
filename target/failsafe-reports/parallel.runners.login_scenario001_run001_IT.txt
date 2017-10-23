@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: parallel.runners.login_scenario001_run001_IT
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.948 s - in parallel.runners.login_scenario001_run001_IT
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 17.346 s <<< FAILURE! - in parallel.runners.login_scenario001_run001_IT
+Then User signs in successfully(Scenario: Login with valid credentials)  Time elapsed: 0.007 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//span[@class='ellipsify-name'] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: .//span[@class='ellipsify-name']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-B8NEL8U', ip: '192.168.1.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+Scenario: Login with valid credentials  Time elapsed: 0.007 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: .//span[@class='ellipsify-name'] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: .//span[@class='ellipsify-name']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-B8NEL8U', ip: '192.168.1.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+

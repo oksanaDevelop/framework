@@ -5,7 +5,6 @@ dao\UserDaoImp.class
 pages\HomePage.class
 pages\SignInPage.class
 dao\UserDao.class
-utils\AllureReporterExt.class
 utils\Inputs.class
 utils\ManageWebDriver.class
 SpringClassConfig.class

@@ -14,6 +14,7 @@ public class Hooks {
 
     @After(order = 2)
     public void takeScreenshot(Scenario scenario) {
+        log.info("Take a screenshot");
         if (scenario.isFailed()&&(ManageWebDriver.getDriverVariable()!=null)) {
             final byte[] screenshot = ((TakesScreenshot) ManageWebDriver.getWebdriver()).getScreenshotAs(OutputType.BYTES);
             scenario.embed(screenshot, "image/png");

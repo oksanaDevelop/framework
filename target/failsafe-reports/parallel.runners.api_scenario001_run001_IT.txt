@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: parallel.runners.api_scenario001_run001_IT
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.57 s - in parallel.runners.api_scenario001_run001_IT
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.357 s - in parallel.runners.api_scenario001_run001_IT
