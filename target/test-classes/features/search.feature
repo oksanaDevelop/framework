@@ -7,5 +7,5 @@ Feature: Search functionality
     Examples:
       | query  |
       | HP     |
-#      | Lenovo |
-#      | Canon  |
+      | Lenovo |
+      | Canon  |
