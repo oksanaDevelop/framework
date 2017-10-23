@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario001_run001_IT.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario001_run001_IT.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/search.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/search.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log-file.txt" afterPath="$PROJECT_DIR$/src/test/resources/log-file.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario001_run001_IT.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario001_run001_IT.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario002_run001_IT.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario002_run001_IT.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.hibernate_scenario001_run001_IT.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.hibernate_scenario001_run001_IT.txt" />
@@ -1219,7 +1214,7 @@
       <workItem from="1508731453511" duration="579000" />
       <workItem from="1508781947859" duration="76000" />
       <workItem from="1508782042202" duration="49000" />
-      <workItem from="1508782095817" duration="1933000" />
+      <workItem from="1508782095817" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="add Allure report">
       <created>1507231077732</created>
@@ -1263,7 +1258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508783768749</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cucumber reporter test2">
+      <created>1508784040057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508784040057</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1299,7 +1301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218932000" />
+    <option name="totallyTimeSpent" value="218947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1425,7 +1427,8 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="Change Allure reporter into Cucumber reporter" />
     <MESSAGE value="Cucumber reporter test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber reporter test" />
+    <MESSAGE value="Cucumber reporter test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber reporter test2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
