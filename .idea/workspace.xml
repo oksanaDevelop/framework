@@ -2,87 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="add Log4j">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/runners/api_scenario001_run001_IT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/runners/api_scenario002_run001_IT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/runners/hibernate_scenario001_run001_IT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/01444e3a-e741-4058-b257-58327d0c5799-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/04cb2d4d-11bc-4aa1-8964-92abb8eea343-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/1186fd68-6250-4d88-bc81-55534c08a74d-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/a4880560-1bc7-4230-ac70-fd5000c463fe-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/a5cb683e-6374-444a-b832-030cd887cf74-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/aa876cf1-204d-46ee-87c7-b63fb3ad6ed8-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/c5966aae-6f37-462b-a391-5376b4adfce3-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/d37c2a2e-fd7c-461c-9d2b-f604eb7f6d67-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/2017-10-22T18-48-25_742.dumpstream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario001_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.api_scenario002_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.hibernate_scenario001_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario001_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.login_scenario002_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario001_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario002_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/failsafe-reports/parallel.runners.search_scenario003_run001_IT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/features/api_scenario001_run001_IT.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/features/api_scenario002_run001_IT.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/parallel/features/hibernate_scenario001_run001_IT.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario001_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario002_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario003_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario004_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario005_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/login_scenario006_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/search_scenario001_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/search_scenario002_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/parallel/runners/search_scenario003_run001_IT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario001_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario004_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario005_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/login_scenario006_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario001_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/parallel/features/search_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/failsafe-reports/2017-10-11T11-20-23_867.dumpstream" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario004_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario005_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario006_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario003_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario004_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario005_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario006_run001_IT.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojo/RestResponse.class" afterPath="$PROJECT_DIR$/target/classes/pojo/RestResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojo/Result.class" afterPath="$PROJECT_DIR$/target/classes/pojo/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/AllureReporterExt.class" afterPath="$PROJECT_DIR$/target/classes/utils/AllureReporterExt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/Api.class" afterPath="$PROJECT_DIR$/target/classes/utils/Api.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/SeleniumMethods.class" afterPath="$PROJECT_DIR$/target/classes/utils/SeleniumMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/spring-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/steps/SignInSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/steps/SignInSteps.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario001_run001_IT.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario002_run001_IT.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario001_run001_IT.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario002_run001_IT.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario003_run001_IT.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario001_run001_IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario002_run001_IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario001_run001_IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario002_run001_IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario003_run001_IT.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojo/RestResponse.java" afterPath="$PROJECT_DIR$/src/main/java/pojo/RestResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojo/Result.java" afterPath="$PROJECT_DIR$/src/main/java/pojo/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/AllureReporterExt.java" afterPath="$PROJECT_DIR$/src/main/java/utils/AllureReporterExt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/Api.java" afterPath="$PROJECT_DIR$/src/main/java/utils/Api.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/SeleniumMethods.java" afterPath="$PROJECT_DIR$/src/main/java/utils/SeleniumMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" afterPath="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log-file.txt" afterPath="$PROJECT_DIR$/src/test/resources/log-file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/log-file.txt" afterPath="$PROJECT_DIR$/target/test-classes/log-file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario001_run001_IT.feature" afterPath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario001_run001_IT.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1309">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="-731">
+              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/hibernate.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +63,18 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -129,8 +83,8 @@
       <file leaf-file-name="SignInSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="58" />
+            <state relative-caret-position="193">
+              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -139,7 +93,7 @@
       <file leaf-file-name="SignInPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/SignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="374">
               <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding />
             </state>
@@ -162,8 +116,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="391">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="e#1057#1058#0" expanded="true" />
                 <element signature="e#1141#1142#0" expanded="true" />
@@ -289,11 +243,11 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/GlobalVariables.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
         <option value="$PROJECT_DIR$/src/main/java/utils/SeleniumMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SignInSteps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       </list>
     </option>
   </component>
@@ -1341,7 +1295,7 @@
       <workItem from="1508426275032" duration="27203000" />
       <workItem from="1508511096727" duration="17182000" />
       <workItem from="1508627636712" duration="3529000" />
-      <workItem from="1508708603058" duration="8668000" />
+      <workItem from="1508708603058" duration="10604000" />
     </task>
     <task id="LOCAL-00001" summary="add Allure report">
       <created>1507231077732</created>
@@ -1366,9 +1320,6 @@
     <history-entry file="Feature__login - 2017.10.22 at 18h 25m 14s.xml">
       <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Login_with_invalid_credentials - 2017.10.22 at 17h 47m 27s.xml">
-      <configuration name="Scenario: Login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Login_with_valid_credentials - 2017.10.22 at 18h 25m 56s.xml">
       <configuration name="Scenario: Login with valid credentials" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -1384,9 +1335,12 @@
     <history-entry file="Scenario__Login_with_valid_credentials - 2017.10.22 at 18h 32m 41s.xml">
       <configuration name="Scenario: Login with valid credentials" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Login_with_valid_credentials - 2017.10.22 at 19h 36m 35s.xml">
+      <configuration name="Scenario: Login with valid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206696000" />
+    <option name="totallyTimeSpent" value="208632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1410,8 +1364,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3726977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3726977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1549,13 +1503,6 @@
         <state relative-caret-position="187">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1703,13 +1650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/hibernate.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/CompanyDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1851,27 +1791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/SeleniumMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1883,26 +1802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="1717" column="0" lean-forward="false" selection-start-line="1717" selection-start-column="0" selection-end-line="1717" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1915,10 +1818,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SignInSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="-731">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/hibernate.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
