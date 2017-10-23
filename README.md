@@ -5,14 +5,17 @@ This is an example of testing framework. The main aim of this framework is to sh
 3. Spring
 4. Selenium
 5. Hibernate
-6. Maven
+6. REST Assured 
 7. Cucable plugin
 8. Cucumber reporting
 9. JUnit
-10. REST Assured
+10. Maven
 11. Log4j
 
-The feature of this framework is that each scenrio(including scenario outline scenarios) from feature file is run in separate thread. 
+The feature of this framework is that each scenario from feature file is run in separate thread including scenarios from "scenario outline". 
 
-![Test report](img/report_features.png?raw=true "Test report2")
-![Trends](img/report_trends.png?raw=true "Trends2")
+![Test report](img/reportFeatures.png?raw=true "Test report")
+![Trends](img/reportTrends.png?raw=true "Trends")
+![Trends](img/buildHistory.png?raw=true "Build history")
+
+If you have any questions feel free to contact with me - luckydev3000@gmail.com

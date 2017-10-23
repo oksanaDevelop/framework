@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="">
+    <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="Added images from Jenkins">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/buildHistory.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/report_features.png" afterPath="$PROJECT_DIR$/img/reportFeatures.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/report_trends.png" afterPath="$PROJECT_DIR$/img/reportTrends.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,12 +62,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,19 +111,6 @@
             <state relative-caret-position="297">
               <caret line="108" column="82" lean-forward="false" selection-start-line="108" selection-start-column="82" selection-end-line="108" selection-end-column="82" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SignInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="79" />
-              <folding>
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/steps/SeleniumMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExampleCongig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumber.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ExampleConfig.java" />
@@ -231,6 +234,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1000,7 +1004,7 @@
       <workItem from="1508731453511" duration="579000" />
       <workItem from="1508781947859" duration="76000" />
       <workItem from="1508782042202" duration="49000" />
-      <workItem from="1508782095817" duration="8634000" />
+      <workItem from="1508782095817" duration="10263000" />
     </task>
     <task id="LOCAL-00001" summary="add Allure report">
       <created>1507231077732</created>
@@ -1114,7 +1118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1508790328091</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added images from Jenkins">
+      <created>1508792679189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508792679189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added images from Jenkins2">
+      <created>1508792770137</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508792770137</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added images from Jenkins 2">
+      <created>1508793495743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1508793495743</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1150,7 +1175,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225633000" />
+    <option name="totallyTimeSpent" value="227262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1285,7 +1310,9 @@
     <MESSAGE value="Delete unnecessary dependencies 2" />
     <MESSAGE value="Delete unnecessary dependencies 3" />
     <MESSAGE value="Added images from Jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images from Jenkins" />
+    <MESSAGE value="Added images from Jenkins2" />
+    <MESSAGE value="Added images from Jenkins 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images from Jenkins 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,13 +1339,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberScenario.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberFeature.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1559,8 +1579,8 @@
         <state relative-caret-position="136">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="79" />
           <folding>
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1218#1219#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1644,6 +1664,17 @@
         <state relative-caret-position="85">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
