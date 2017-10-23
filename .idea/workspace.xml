@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="add Log4j">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario001_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/login_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario001_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario002_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/features/search_scenario003_run001_IT.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario001_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/login_scenario002_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario001_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario002_run001_IT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/parallel/runners/search_scenario003_run001_IT.class" afterPath="" />
+    <list default="true" id="c7e05097-ce24-4530-9b07-c77d36841095" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log-file.txt" afterPath="$PROJECT_DIR$/src/test/resources/log-file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/log-file.txt" afterPath="$PROJECT_DIR$/target/test-classes/log-file.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,17 +47,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -1295,7 +1282,7 @@
       <workItem from="1508426275032" duration="27203000" />
       <workItem from="1508511096727" duration="17182000" />
       <workItem from="1508627636712" duration="3529000" />
-      <workItem from="1508708603058" duration="10604000" />
+      <workItem from="1508708603058" duration="11433000" />
     </task>
     <task id="LOCAL-00001" summary="add Allure report">
       <created>1507231077732</created>
@@ -1304,7 +1291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507231077732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Log4j">
+      <created>1508721309779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508721309779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1340,10 +1334,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208632000" />
+    <option name="totallyTimeSpent" value="209461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1369,7 +1364,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21641791" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21641791" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1863,18 +1858,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
