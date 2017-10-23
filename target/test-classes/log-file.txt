@@ -1,7 +1,0 @@
-2017-10-23 13:34:30 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fd07cbb: startup date [Mon Oct 23 13:34:30 CDT 2017]; root of context hierarchy
-2017-10-23 13:34:30 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 13:34:31 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 13:34:32 INFO  ManageWebDriver:17 - Take a screenshot
-2017-10-23 13:34:32 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 13:34:32 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
-2017-10-23 13:34:32 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@fd07cbb: startup date [Mon Oct 23 13:34:30 CDT 2017]; root of context hierarchy
