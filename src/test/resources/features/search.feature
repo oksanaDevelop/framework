@@ -1,4 +1,7 @@
 Feature: Search functionality
+  As a user
+  I want to submit search queries
+  In order to search fast necessary products
 
   Scenario Outline: Search results contain keyword
     Given User opens Home page
@@ -7,5 +10,5 @@ Feature: Search functionality
     Examples:
       | query  |
       | HP     |
-#      | Lenovo |
-#      | Canon  |
+      | Lenovo |
+      | Canon  |

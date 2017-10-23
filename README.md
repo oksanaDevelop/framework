@@ -18,4 +18,4 @@ The feature of this framework is that each scenario from feature file is run in 
 ![Trends](img/reportTrends.png?raw=true "Trends")
 ![Trends](img/buildHistory.png?raw=true "Build history")
 
-If you have any questions feel free to reach me - luckydev3000@gmail.com
+If you have any questions feel free to reach me out - luckydev3000@gmail.com

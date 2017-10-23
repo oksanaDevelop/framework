@@ -1,4 +1,7 @@
-Feature: Login/Log out functionality
+Feature: Login out functionality
+  As a user
+  I want to sign in to the site
+  In order to make online orders
 
   Scenario: Login with valid credentials
     Given User opens Home page
