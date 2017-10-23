@@ -11,7 +11,6 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import pojo.RestResponse;
 import pojo.Result;
-
 import java.io.IOException;
 import java.util.Map;
 
@@ -66,13 +65,7 @@ public class Api {
         Response response = getCountryByIso3Code(countryCode3);
         JsonPath jsonPath = response.jsonPath();
         Map<String, String> map = jsonPath.getMap("RestResponse.result");
-        String res = null;
-        try {
-            res = new ObjectMapper().writeValueAsString(map);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-        return res;
+        return getStringFromMap(map);
     }
 
     private static String getRestResponseJsonAndCode(String countryCode3) {
@@ -80,13 +73,7 @@ public class Api {
         JsonPath jsonPath = response.jsonPath();
         Map<String, String> map = jsonPath.getMap("RestResponse");
         map.put("responseCode", String.valueOf(response.getStatusCode()));
-        String res = null;
-        try {
-            res = new ObjectMapper().writeValueAsString(map);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-        return res;
+        return getStringFromMap(map);
     }
 
     public static Result getResultObject(String countryCode3) {
@@ -105,7 +92,6 @@ public class Api {
         String json = getRestResponseJsonAndCode(countryCode3);
         System.out.println(json);
         RestResponse result = null;
-
         ObjectMapper mapper = new ObjectMapper();
         try {
             result = mapper.readValue(json, RestResponse.class);
@@ -123,7 +109,13 @@ public class Api {
         return map.get("name");
     }
 
-    public static void main(String[] args) {
-        getPostResponse();
+    private static String getStringFromMap(Map<String, String> map){
+        String res = null;
+        try {
+            res = new ObjectMapper().writeValueAsString(map);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return res;
     }
 }

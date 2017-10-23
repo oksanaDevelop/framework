@@ -13,7 +13,8 @@ import java.util.List;
 public class HomePage {
 
     private final String DROPDOWN_MY_ACCOUNT_ID = "header-GlobalAccountFlyout-flyout-link";
-    private final String LINK_SIGN_IN_PARTIAL_LINK = "Hello";
+    private final String LINK_SIGN_IN_PARTIAL_LINK = "Sign In";
+    private final String USER_NAME_XPATH = ".//span[@class='ellipsify-name']";
     private final String BUTTON_SEARCH_XPATH = ".//*[@class='header-GlobalSearch-submit btn']";
     private final String SEARCH_FIELD_ID = "global-search-input";
     private final String LINK_PRODUCTS_NAME_XPATH = ".//*[@class='search-result-product-title listview']//a/span";
@@ -32,8 +33,8 @@ public class HomePage {
         seleniumMethods.click(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
     }
 
-    public String getHelloText() {
-        return seleniumMethods.getText(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
+    public String getUserName() {
+        return seleniumMethods.getText(By.xpath(USER_NAME_XPATH));
     }
 
     public void submitQuery(String query) {

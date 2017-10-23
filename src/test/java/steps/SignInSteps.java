@@ -16,8 +16,10 @@ import utils.GlobalVariables;
 public class SignInSteps {
 
     @Autowired
+    private
     HomePage homePage;
     @Autowired
+    private
     SignInPage signInPage;
     @Autowired
     Environment env;
@@ -37,8 +39,9 @@ public class SignInSteps {
 
     @Then("^User signs in successfully$")
     public void user_signs_in_successfully() {
-        String actualHelloText = homePage.getHelloText();
+        String actualHelloText = homePage.getUserName();
         String actualUserName = env.getProperty("user.name.walmart");
+        System.out.println("*************" + actualHelloText + actualUserName);
         Assert.assertThat("'Hello string' should contain proper name", actualHelloText, containsString(actualUserName));
     }
 

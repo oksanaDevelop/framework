@@ -1,6 +1,0 @@
-# Created on 2017-10-11T11:20:23.870
-[AppClassLoader@18b4aac2] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
-
-# Created on 2017-10-11T11:20:24.379
-[AppClassLoader@18b4aac2] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
-

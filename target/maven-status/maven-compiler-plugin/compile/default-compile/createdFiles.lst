@@ -1,7 +1,17 @@
+dao\CompanyDao.class
+pojo\RestResponse.class
+dao\CompanyDaoImp.class
+dao\UserDaoImp.class
 pages\HomePage.class
 pages\SignInPage.class
+dao\UserDao.class
 utils\AllureReporterExt.class
+utils\Inputs.class
 utils\ManageWebDriver.class
 SpringClassConfig.class
+entity\User.class
 utils\GlobalVariables.class
 utils\SeleniumMethods.class
+utils\Api.class
+pojo\Result.class
+entity\Company.class

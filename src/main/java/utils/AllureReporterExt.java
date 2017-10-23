@@ -17,7 +17,7 @@ public class AllureReporterExt extends AllureReporter {
     }
 
     @Attachment(type = "image/png")
-    public static byte[] attachScreenshot() {
+    private static byte[] attachScreenshot() {
         return ((TakesScreenshot) ManageWebDriver.getWebdriver()).getScreenshotAs(OutputType.BYTES);
     }
 

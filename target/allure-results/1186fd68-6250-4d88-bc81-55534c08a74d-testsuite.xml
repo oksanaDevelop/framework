@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1508716105503" stop="1508716113070" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Hibernate functionality</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1508716112158" stop="1508716112974" status="passed">
+            <name>Delete user from DB</name>
+            <title>Delete user from DB</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1508716112162" stop="1508716112936" status="passed">
+                    <name>Given Insert user Tony from company Coca in DB</name>
+                    <title>Given Insert user Tony from company Coca in DB</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508716112937" stop="1508716112945" status="passed">
+                    <name>Given User Tony from company Coca exists in DB</name>
+                    <title>Given User Tony from company Coca exists in DB</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508716112945" stop="1508716112963" status="passed">
+                    <name>When Admin executes query to delete user Tony</name>
+                    <title>When Admin executes query to delete user Tony</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508716112964" stop="1508716112966" status="passed">
+                    <name>Then User Tony is deleted from DB</name>
+                    <title>Then User Tony is deleted from DB</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Delete user from DB"/>
+                <label name="feature" value="Hibernate functionality"/>
+                <label name="host" value="DESKTOP-B8NEL8U"/>
+                <label name="thread" value="7532@DESKTOP-B8NEL8U.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Hibernate functionality"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -20,9 +20,10 @@ public class SeleniumMethods {
     private final Logger log = Logger.getLogger(SeleniumMethods.class);
 
     @Autowired
+    private
     Environment env;
 
-    public WebDriver getDriver() {
+    private WebDriver getDriver() {
         log.info("Methods ask driver");
         return ManageWebDriver.getWebdriver();
     }
@@ -35,12 +36,12 @@ public class SeleniumMethods {
         waitVisibilityOfElement(locator).sendKeys(text);
     }
 
-    public WebElement waitVisibilityOfElement(By locator) {
+    private WebElement waitVisibilityOfElement(By locator) {
         WebDriverWait wait = new WebDriverWait(getDriver(), Long.valueOf(env.getProperty("wait.sec.element.visibility")));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    public List<WebElement> getElements(By locator) {
+    private List<WebElement> getElements(By locator) {
         waitVisibilityOfElement(locator);
         return getDriver().findElements(locator).stream().filter(element -> !element.getText().equals("")).collect(Collectors.toList());
     }
@@ -61,19 +62,28 @@ public class SeleniumMethods {
         }
     }
 
+    public WebElement clearField(By locator) {
+        WebElement element = waitVisibilityOfElement(locator);
+        element.clear();
+        return element;
+    }
+
     public void fillField(By locator, String text) {
-        waitVisibilityOfElement(locator).sendKeys(text);
+        log.info(String.format("Fill text '%s' into field with locator '%s'", text, locator.toString()));
+        clearField(locator).sendKeys(text);
     }
 
     public String getText(By locator) {
-        return waitVisibilityOfElement(locator).getText();
+        String res = waitVisibilityOfElement(locator).getText();
+        log.info(String.format("Text of element %s is %s", locator, res));
+        return res;
     }
 
     public boolean isElementTextEqualToText(String expectedText, By locator) {
         return getText(locator).equals(expectedText);
     }
 
-    public boolean isErrorMessagePresent(String errorMessage, By locator, int messageNumber) {
+    private boolean isErrorMessagePresent(String errorMessage, By locator, int messageNumber) {
         List<String> listErrors = getTextOfElements(locator);
         log.info(String.format("Error should be visible '%s' ", errorMessage));
         listErrors.forEach((error) -> log.info(String.format("Error is visible - '%s' ", error)));

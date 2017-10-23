@@ -4,9 +4,9 @@ package pojo;
 import java.util.Arrays;
 
 public class RestResponse {
-    String[] messages;
-    Result result;
-    int responseCode;
+    private String[] messages;
+    private Result result;
+    private int responseCode;
 
     public RestResponse(String messages, Result result, int responseCode) {
         this.messages = new String[]{messages};
@@ -20,7 +20,7 @@ public class RestResponse {
         this.responseCode = responseCode;
     }
 
-    public String[] getMessages() {
+    private String[] getMessages() {
         return messages;
     }
 
@@ -28,7 +28,7 @@ public class RestResponse {
         this.messages = messages;
     }
 
-    public Result getResult() {
+    private Result getResult() {
         return result;
     }
 
@@ -36,7 +36,7 @@ public class RestResponse {
         this.result = result;
     }
 
-    public int getResponseCode() {
+    private int getResponseCode() {
         return responseCode;
     }
 

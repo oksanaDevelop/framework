@@ -23,7 +23,7 @@ public class SignInPage {
     }
 
     public SignInPage fillPasswordField(String password) {
-        if (password.equals("''")) password = "";
+        if (password.equals("-")) password = "";
         seleniumMethods.fillField(By.name(FIELD_PASSWORD_NAME), password);
         return this;
     }

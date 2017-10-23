@@ -12,7 +12,7 @@ public class Result {
         this.alpha3_code = alpha3_code;
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
@@ -20,7 +20,7 @@ public class Result {
         this.name = name;
     }
 
-    public String getAlpha2_code() {
+    private String getAlpha2_code() {
         return alpha2_code;
     }
 
@@ -28,7 +28,7 @@ public class Result {
         this.alpha2_code = alpha2_code;
     }
 
-    public String getAlpha3_code() {
+    private String getAlpha3_code() {
         return alpha3_code;
     }
 
