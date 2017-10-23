@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cucumber</groupId>
@@ -23,6 +25,11 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
             </plugin>
 
             <plugin>
@@ -112,6 +119,42 @@
                             </execution>
                         </executions>
                     </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.20.1</version>
+                        <configuration>
+                            <skipTests>true</skipTests>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-failsafe-plugin</artifactId>
+                        <version>2.20.1</version>
+                        <executions>
+                            <execution>
+                                <id>Run parallel tests</id>
+                                <phase>integration-test</phase>
+                                <goals>
+                                    <goal>integration-test</goal>
+                                    <goal>verify</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <testSourceDirectory>test/java/parallel/runners</testSourceDirectory>
+                            <testFailureIgnore>true</testFailureIgnore>
+                            <forkCount>${quantity.threads}</forkCount>
+                            <reuseForks>false</reuseForks>
+                            <argLine>-Dfile.encoding=UTF-8</argLine>
+                            <disableXmlReport>true</disableXmlReport>
+                            <testFailureIgnore>false</testFailureIgnore>
+
+                        </configuration>
+
+                    </plugin>
+
 
                     <plugin>
                         <groupId>net.masterthought</groupId>
@@ -251,6 +294,7 @@
             <artifactId>log4j</artifactId>
             <version>1.2.12</version>
         </dependency>
+
     </dependencies>
 
 </project>
