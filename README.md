@@ -2,10 +2,10 @@ This is an example of testing framework. The main aim of this framework is to sh
 
 1. Java
 2. Cucumber
-3. Spring
-4. Selenium
-5. Hibernate
-6. REST Assured 
+3. **Spring**
+4. **Selenium**
+5. **Hibernate**
+6. **REST Assured** 
 7. Cucable plugin
 8. Cucumber reporting
 9. JUnit
@@ -18,4 +18,4 @@ The feature of this framework is that each scenario from feature file is run in 
 ![Trends](img/reportTrends.png?raw=true "Trends")
 ![Trends](img/buildHistory.png?raw=true "Build history")
 
-If you have any questions feel free to contact with me - luckydev3000@gmail.com
+If you have any questions feel free to reach me - luckydev3000@gmail.com
