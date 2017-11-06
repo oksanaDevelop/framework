@@ -1,4 +1,4 @@
-Feature: Login out functionality
+Feature: Login functionality
   As a user
   I want to sign in to the site
   In order to make online orders
