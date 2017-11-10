@@ -3,7 +3,7 @@ This is an example of testing framework. The main aim of this framework is to sh
 1. Java
 2. Cucumber
 3. **Spring**
-4. **Selenium**
+4. **Selenium WebDriver**
 5. **Hibernate**
 6. **REST Assured** 
 7. Cucable plugin
