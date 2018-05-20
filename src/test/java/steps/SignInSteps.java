@@ -1,7 +1,8 @@
 package steps;
 
 import cucumber.api.java.en.*;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -23,7 +24,7 @@ public class SignInSteps {
     SignInPage signInPage;
     @Autowired
     Environment env;
-    private final static Logger log = Logger.getLogger(SignInSteps.class);
+    private final static Logger log = LogManager.getLogger(SignInSteps.class);
 
 
     @Given("^User opens Home page$")
@@ -39,10 +40,9 @@ public class SignInSteps {
 
     @Then("^User signs in successfully$")
     public void user_signs_in_successfully() {
-        String actualHelloText = homePage.getUserName();
-        String actualUserName = env.getProperty("user.name.walmart");
-        System.out.println("*************" + actualHelloText + actualUserName);
-        Assert.assertThat("'Hello string' should contain proper name", actualHelloText, containsString(actualUserName));
+        String actualAccountButtonTitle = homePage.getAccountButtonTitle();
+        String actualUserNameAcronym = env.getProperty("user.nameAcronym.walmart");
+        Assert.assertThat("'Account button' title should contain acronym of a customer name in a title", actualAccountButtonTitle, containsString(actualUserNameAcronym));
     }
 
     @Then("^Error message (.*) appears$")
@@ -60,13 +60,13 @@ public class SignInSteps {
     @When("^User submit search query (.*)$")
     public void user_submit_search_query(String searchQuery) {
         homePage.submitQuery(searchQuery);
-        GlobalVariables.setStringVariable("searchVariable", searchQuery);
+        GlobalVariables.setStringVariable("searchVariable", searchQuery.toLowerCase());
     }
 
     @Then("^All search results contain keyword$")
     public void all_search_results_contain_keyword() {
         homePage.getProductNames().forEach(name -> {
-            Assert.assertThat(name, containsString(GlobalVariables.getStringVariable("searchVariable")));
+            Assert.assertThat(name.toLowerCase(), containsString(GlobalVariables.getStringVariable("searchVariable")));
         });
     }
 

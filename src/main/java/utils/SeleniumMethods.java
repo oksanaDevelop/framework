@@ -1,6 +1,8 @@
 package utils;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -18,7 +20,7 @@ import java.util.stream.Collectors;
 public class SeleniumMethods {
 
     private WebDriver driver;
-    private final Logger log = Logger.getLogger(SeleniumMethods.class);
+    private final Logger log = LogManager.getLogger(SeleniumMethods.class);
 
     @Autowired
     private
@@ -51,6 +53,10 @@ public class SeleniumMethods {
         List<String> list = getElements(locator).stream().map(element -> element.getText()).collect(Collectors.toList());
         System.out.println(list);
         return list;
+    }
+
+    public String getTextOfAttribute(By locator, String attribute) {
+        return waitVisibilityOfElement(locator).getAttribute(attribute);
     }
 
     public void click(By lccator) {

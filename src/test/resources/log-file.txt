@@ -1,7 +1,7 @@
-2017-10-23 15:01:27 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4310d43: startup date [Mon Oct 23 15:01:27 CDT 2017]; root of context hierarchy
-2017-10-23 15:01:27 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
-2017-10-23 15:01:27 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2017-10-23 15:01:29 INFO  SeleniumMethods:28 - Methods ask driver
-2017-10-23 15:01:29 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
-2017-10-23 15:01:32 INFO  ManageWebDriver:59 - New chrome driver is created
-2017-10-23 15:01:32 INFO  GlobalVariables:33 - Put Webdriver to globalVariables.
+2018-05-20 17:02:11 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17a7f733: startup date [Sun May 20 17:02:11 CDT 2018]; root of context hierarchy
+2018-05-20 17:02:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [cucumber.xml]
+2018-05-20 17:02:12 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-20 17:02:13 INFO  ManageWebDriver:17 - Take a screenshot
+2018-05-20 17:02:13 INFO  GlobalVariables:27 - Take a WebDriver from globalVariables
+2018-05-20 17:02:13 INFO  ManageWebDriver:69 - Driver is NULL. Nothing to close
+2018-05-20 17:02:13 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@17a7f733: startup date [Sun May 20 17:02:11 CDT 2018]; root of context hierarchy

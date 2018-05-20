@@ -1,7 +1,8 @@
 package utils;
 
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import java.util.HashMap;
@@ -10,7 +11,7 @@ import java.util.Map;
 public class GlobalVariables {
 
     private static ThreadLocal<Map<String, Object>> globalVariables =new ThreadLocal<>();
-    private final static Logger log = Logger.getLogger(GlobalVariables.class);
+    private final static Logger log = LogManager.getLogger(GlobalVariables.class);
 
 
     static{

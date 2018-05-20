@@ -1,5 +1,7 @@
 package utils;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
@@ -7,7 +9,6 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import pojo.RestResponse;
 import pojo.Result;
@@ -17,7 +18,7 @@ import java.util.Map;
 @Component
 public class Api {
 
-    private final static Logger log = Logger.getLogger(Api.class);
+    private final static Logger log = LogManager.getLogger(Api.class);
 
     public static Response getGetResponse(String endpointURL) {
         RequestSpecification httpRequest = RestAssured.given();

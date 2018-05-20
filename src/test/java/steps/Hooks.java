@@ -2,7 +2,8 @@ package steps;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utils.ManageWebDriver;
@@ -10,7 +11,7 @@ import utils.ManageWebDriver;
 
 public class Hooks {
 
-    private final static Logger log = Logger.getLogger(ManageWebDriver.class);
+    private final static Logger log = LogManager.getLogger(ManageWebDriver.class);
 
     @After(order = 2)
     public void takeScreenshot(Scenario scenario) {

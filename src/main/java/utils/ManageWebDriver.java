@@ -1,7 +1,8 @@
 package utils;
 
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +17,7 @@ import org.springframework.core.env.Environment;
 public class ManageWebDriver {
 
     private static WebDriver driver;
-    private final static Logger log = Logger.getLogger(ManageWebDriver.class);
+    private final static Logger log = LogManager.getLogger(ManageWebDriver.class);
     private static Environment env;
 
     @Autowired

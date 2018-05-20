@@ -12,10 +12,14 @@ import java.util.List;
 @Component
 public class HomePage {
 
-    private final String DROPDOWN_MY_ACCOUNT_ID = "header-GlobalAccountFlyout-flyout-link";
+   // private final String DROPDOWN_MY_ACCOUNT_ID = "header-GlobalAccountFlyout-flyout-link";
+
+    private final String BUTTON_ACCOUNT_XPATH = "//button[@class='button BubbleButton hide-content-max-m GlobalHeaderBubblesNav-accountBubble group1']";
+
     private final String LINK_SIGN_IN_PARTIAL_LINK = "Sign In";
+
     private final String USER_NAME_XPATH = ".//span[@class='ellipsify-name']";
-    private final String BUTTON_SEARCH_XPATH = ".//*[@class='header-GlobalSearch-submit btn']";
+    private final String BUTTON_SEARCH_XPATH = ".//button[@class='button icon-button group1']";
     private final String SEARCH_FIELD_ID = "global-search-input";
     private final String LINK_PRODUCTS_NAME_XPATH = ".//*[@class='search-result-product-title listview']//a/span";
 
@@ -29,9 +33,17 @@ public class HomePage {
         seleniumMethods.openPage(env.getProperty("page.home"));
     }
 
+    public void clickAccountButton() {
+        seleniumMethods.click(By.xpath(BUTTON_ACCOUNT_XPATH));
+    }
+
     public void clickSighInLink() {
-        seleniumMethods.actionMoveToElement(By.id(DROPDOWN_MY_ACCOUNT_ID));
+        clickAccountButton();
         seleniumMethods.click(By.partialLinkText(LINK_SIGN_IN_PARTIAL_LINK));
+    }
+
+    public String getAccountButtonTitle() {
+        return seleniumMethods.getTextOfAttribute(By.xpath(BUTTON_ACCOUNT_XPATH), "title");
     }
 
     public String getUserName() {
