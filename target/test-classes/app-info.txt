@@ -1,0 +1,31 @@
+[INFO ] 2018-05-20 18:44:25.129 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-05-20 18:44:25.132 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-05-20 18:44:25.165 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-05-20 18:44:25.439 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-05-20 18:44:25.468 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-05-20 18:44:26.960 [main] Api - 
+ ***** 
+ GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
+ {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+[INFO ] 2018-05-20 18:44:26.962 [main] Api - {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+[INFO ] 2018-05-20 18:44:27.203 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-05-20 18:44:27.204 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-05-20 18:44:27.204 [main] ManageWebDriver - Driver is NULL. Nothing to close

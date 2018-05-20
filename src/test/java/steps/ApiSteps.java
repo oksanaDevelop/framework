@@ -52,7 +52,6 @@ public class ApiSteps {
         String value = null;
         String expectedJSON;
         Response response = (Response) GlobalVariables.getObjectVariable("response2");
-        System.out.println(response);
         for (Map<String, String> data : body.asMaps(String.class, String.class)) {
             key = data.get("key");
             value = data.get("value");

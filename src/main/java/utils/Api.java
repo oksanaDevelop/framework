@@ -91,7 +91,7 @@ public class Api {
 
     public static RestResponse getRestResponseObject(String countryCode3) {
         String json = getRestResponseJsonAndCode(countryCode3);
-        System.out.println(json);
+        log.info(String.format("JSON response is - %s",json ));
         RestResponse result = null;
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -104,7 +104,7 @@ public class Api {
 
     public static String getCountry(String countryCode3) {
         Response response = getCountryByIso3Code(countryCode3);
-        System.out.println(response.getBody().asString());
+        log.info(String.format("getCountry method, body is - %s"), response.getBody().asString());
         JsonPath jsonPath = response.jsonPath();
         Map<String, String> map = jsonPath.getMap("RestResponse.result");
         return map.get("name");
