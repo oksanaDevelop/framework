@@ -55,7 +55,7 @@ public class Inputs {
     }
 
     public static String twoStringToJson(String key, String value) {
-        return String.format("`%s`: `%s`", key, value).replace('`', '"');
+        return String.format("`%s`:`%s`", key, value).replace('`', '"');
     }
 
 }
