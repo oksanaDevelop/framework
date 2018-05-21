@@ -10,7 +10,7 @@ Feature: API functionality
       | 200          | United States of America | US          | USA         | Country found matching code [USA]. |
 
   Scenario: POST testing
-    When User sends POST request to endpoint https://httpbin.org/post with the body
+    When User sends POST request to endpoint http://httpbin.org/post with the body
       | key    | value |
       | mybody | body  |
     Then Response contains response code 200 and the following data

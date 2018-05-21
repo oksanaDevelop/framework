@@ -1,31 +1,10 @@
-[INFO ] 2018-05-20 18:44:37.013 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
-[INFO ] 2018-05-20 18:44:37.016 [main] Environment - HHH000206: hibernate.properties not found
-[INFO ] 2018-05-20 18:44:37.052 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-[INFO ] 2018-05-20 18:44:37.333 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-[INFO ] 2018-05-20 18:44:37.366 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-[INFO ] 2018-05-20 18:44:38.992 [main] Api - 
- ***** 
- GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
- {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-[INFO ] 2018-05-20 18:44:38.994 [main] Api - {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-[INFO ] 2018-05-20 18:44:39.247 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-05-20 18:44:39.248 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-05-20 18:44:39.248 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-05-21 01:32:32.959 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-05-21 01:32:32.962 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-05-21 01:32:32.997 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-05-21 01:32:33.282 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-05-21 01:32:33.312 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-05-21 01:32:33.948 [main] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-05-21 01:32:34.061 [main] UserDaoImp - user Dao - User{id=null, name='Tony', companyId='4'}
+[INFO ] 2018-05-21 01:32:34.111 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-05-21 01:32:34.112 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-05-21 01:32:34.112 [main] ManageWebDriver - Driver is NULL. Nothing to close

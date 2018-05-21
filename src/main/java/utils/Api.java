@@ -42,7 +42,7 @@ public class Api {
     }
 
     private static Response getPostResponse() {
-        String endpointURL = "https://httpbin.org/post";
+        String endpointURL = "http://httpbin.org/post";
         String Json = getResultJson("USA");
         return getPostResponse(endpointURL, Json);
     }

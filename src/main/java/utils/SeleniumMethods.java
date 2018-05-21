@@ -51,7 +51,7 @@ public class SeleniumMethods {
 
     public List<String> getTextOfElements(By locator) {
         List<String> list = getElements(locator).stream().map(element -> element.getText()).collect(Collectors.toList());
-        log.info(String.format("List of element's text - %s"), list.toString());
+        log.info(String.format("List of element's text - %s", list.toString()));
         return list;
     }
 
