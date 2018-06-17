@@ -2,7 +2,7 @@ Feature: API functionality
 
 Scenario: POST testing
 
-When User sends POST request to endpoint https://httpbin.org/post with the body
+When User sends POST request to endpoint http://httpbin.org/post with the body
 |key|value|
 |mybody|body|
 Then Response contains response code 200 and the following data

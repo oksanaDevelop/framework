@@ -121,7 +121,7 @@
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
     <orderEntry type="library" name="Maven: bouncycastle:bcprov-jdk15:135" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-java:1.2.5" level="project" />
-    <orderEntry type="library" name="Maven: com.trivago.rta:cucable-plugin:0.0.7" level="project" />
+    <orderEntry type="library" name="Maven: com.trivago.rta:cucable-plugin:0.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:3.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.3.9" level="project" />
