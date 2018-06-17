@@ -9,6 +9,6 @@ Feature: Search functionality
     Then All search results contain keyword
     Examples:
       | query  |
-      | HP     |
-      | Lenovo |
-      | Canon  |
+#      | HP     |
+      | Microsoft  |
+#      | Canon  |
