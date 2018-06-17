@@ -12,8 +12,6 @@ import java.util.List;
 @Component
 public class HomePage {
 
-   // private final String DROPDOWN_MY_ACCOUNT_ID = "header-GlobalAccountFlyout-flyout-link";
-
     private final String BUTTON_ACCOUNT_XPATH = "//button[@class='button BubbleButton hide-content-max-m GlobalHeaderBubblesNav-accountBubble group1']";
 
     private final String LINK_SIGN_IN_PARTIAL_LINK = "Sign In";

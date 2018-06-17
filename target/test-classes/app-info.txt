@@ -1,31 +1,24 @@
-[INFO ] 2018-05-20 18:44:25.129 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
-[INFO ] 2018-05-20 18:44:25.132 [main] Environment - HHH000206: hibernate.properties not found
-[INFO ] 2018-05-20 18:44:25.165 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-[INFO ] 2018-05-20 18:44:25.439 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-[INFO ] 2018-05-20 18:44:25.468 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-[INFO ] 2018-05-20 18:44:26.960 [main] Api - 
- ***** 
- GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
- {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-[INFO ] 2018-05-20 18:44:26.962 [main] Api - {
-  "RestResponse" : {
-    "messages" : [ "Country found matching code [USA]." ],
-    "result" : {
-      "name" : "United States of America",
-      "alpha2_code" : "US",
-      "alpha3_code" : "USA"
-    }
-  }
-}
-[INFO ] 2018-05-20 18:44:27.203 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-05-20 18:44:27.204 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-05-20 18:44:27.204 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-06-17 12:57:58.023 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-06-17 12:57:58.029 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-06-17 12:57:58.284 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-06-17 12:57:59.140 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-06-17 12:57:59.194 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-06-17 12:58:00.511 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 12:58:00.512 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:06.116 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 12:58:06.117 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 12:58:10.870 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 12:58:10.870 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:12.721 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 12:58:12.721 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:17.600 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 12:58:17.607 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:17.685 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 12:58:17.685 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:18.526 [main] SeleniumMethods - List of element's text - [Lenovo Explorer Bundle, Windows Mixed Reality Headset with Controllers, Iron Grey, G0A20002WW, Lenovo ideapad 320 15.6" Laptop, Windows 10, Intel Celeron N3350 Dual-Core Processor, 4GB RAM, 1TB Hard Drive, Lenovo ideapad 330 15.6" Laptop, Windows 10, Intel Core i3-8130U Dual-Core Processor, 4GB RAM, 1TB Hard Drive - Onyx Black, Lenovo Gaming Laptop 15.6", FHD Screen, Intel core i7-7700hq, 2.8-3.8 GHZ, Nvidia GeForce GTX 1050 Ti Graphic Card, 8GB DDR4 Memory, 1TB HDD, 80WK00T2US, Lenovo ideapad 320 15.6 Laptop, Windows 10, Intel Celeron N3350 Dual-Core Processor, 4GB RAM, 1TB Hard Drive – Platinum Grey, Lenovo Flex 5 14" 2 in 1 Laptop, Windows 10, Intel Core i5-7200U Dual-Core Processor, 8GB RAM, 1TB Hard Drive, Lenovo ideapad 320 15.6" Laptop, Windows 10, Intel Pentium N4200 Quad-Core Processor, 4GB RAM, 1TB Hard Drive - Denim Blue, Lenovo ideapad 320 15.6" Laptop, Windows 10, Intel Pentium N4200 Quad-Core Processor, 4GB RAM, 1TB Hard Drive - Platinum Grey, Lenovo TAB 10 10.1" Tablet 210/1.3GHz 1GB 16GB SSD AND 6.0, RCA Galileo Pro 11.5" 32GB 2-in-1 Tablet with Keyboard Case Android 6.0 (Marshmallow), Lenovo ideapad 330 15.6" Laptop, Windows 10, Intel Core i3-8130U Dual-Core Processor, 4GB RAM, 1TB Hard Drive - Platinum Grey, Refurbished Lenovo W540 15.6" Laptop, Windows 10 Pro, Intel Core i7-4800MQ Processor, 16GB RAM, 500GB Solid State Drive, Refurbished Lenovo T510 15.6" Laptop, Windows 10 Home, Intel Core i5-520M Processor, 3GB RAM, 160GB Hard Drive, Refurbished Lenovo Black 15.6" ThinkPad T510 Laptop PC with Intel Core i5-520M Processor, 4GB Memory, 500GB Hard Drive and Windows 10 Home, Refurbished Lenovo ThinkPad X1 Carbon 2.1GHz i7 8GB 240SSD Windows 10 Pro 64 Laptop B CAM, Refurbished Lenovo Black 15.6" ThinkPad T510 Laptop PC with Intel Core i5-520M Processor, 4GB Memory, 250GB Hard Drive and Windows 10 Home, Refurbished Lenovo T510 15.6" Laptop, Windows 10 Pro, Intel Core i5-520M Processor, 4GB RAM, 160GB Hard Drive, Refurbished Lenovo Black 14" T430 WA5-1083 Laptop PC with Intel Core i5-3320M Processor, 4GB Memory, 320GB Hard Drive and Windows 10 Pro, Refurbished Lenovo T540P 15.6" Laptop, Windows 10 Pro, Intel Core i5-4300M Processor, 8GB RAM, 500GB Hard Drive, Lenovo Legion Y920-17IKB Core i7 GTX 1070 1920 X 1080 IPS Laptop, Refurbished Lenovo ThinkPad T540P 15.6" Laptop, Windows 10 Pro, Intel Core i5-4300M Processor, 8GB RAM, 500GB Hard Drive]
+[INFO ] 2018-06-17 12:58:18.542 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 12:58:18.543 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:18.904 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 12:58:21.251 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 12:58:21.251 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 12:58:21.252 [main] GlobalVariables - Webdriver is NULL

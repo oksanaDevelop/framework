@@ -8,7 +8,7 @@ Feature: Search functionality
     When User submit search query <query>
     Then All search results contain keyword
     Examples:
-      | query  |
-      | HP     |
-      | Lenovo |
-      | Canon  |
+      | query     |
+      | HP        |
+      | Microsoft |
+      | Canon     |

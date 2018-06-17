@@ -39,9 +39,4 @@
     </bean>
 
 
-    <!--<bean id="personDAO" class="dao.UserDaoImp">-->
-        <!--<property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />-->
-    <!--</bean>-->
-
-
 </beans>

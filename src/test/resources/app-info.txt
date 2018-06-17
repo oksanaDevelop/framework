@@ -1,10 +1,23 @@
-[INFO ] 2018-05-21 01:32:32.959 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
-[INFO ] 2018-05-21 01:32:32.962 [main] Environment - HHH000206: hibernate.properties not found
-[INFO ] 2018-05-21 01:32:32.997 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-[INFO ] 2018-05-21 01:32:33.282 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-[INFO ] 2018-05-21 01:32:33.312 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-[INFO ] 2018-05-21 01:32:33.948 [main] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
-[INFO ] 2018-05-21 01:32:34.061 [main] UserDaoImp - user Dao - User{id=null, name='Tony', companyId='4'}
-[INFO ] 2018-05-21 01:32:34.111 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-05-21 01:32:34.112 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-05-21 01:32:34.112 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-06-17 13:08:31.924 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-06-17 13:08:31.928 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-06-17 13:08:32.000 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-06-17 13:08:32.680 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-06-17 13:08:32.734 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-06-17 13:08:33.743 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 13:08:33.744 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:36.771 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 13:08:36.771 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 13:08:41.558 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 13:08:41.558 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:43.239 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 13:08:43.239 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:48.954 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 13:08:48.955 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:49.005 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 13:08:49.005 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:49.748 [main] SeleniumMethods - List of element's text - [Microsoft Office Home and Student 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 | 1 user, PC Key Card, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Download, Sea of Thieves, Microsoft, Xbox One, 889842280449, Microsoft Office 365 Personal | 1-year subscription, 1 user, PC/Mac Download, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Key Card, Microsoft Office 365 Personal | 1-year subscription, 1 users, PC/Mac Key Card, Microsoft Office Home and Business 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 for Mac, Microsoft Office Professional 2016 PC ESD (Digital Code), Microsoft Office 365 Personal 32/64-bit 1-Year Subscription, Microsoft Office Home and Business 2016 (PC Key Card), Microsoft Office Home & Student 2013 - 1 PC, Microsoft Office 365 & McAfee LiveSafe Bundle Pack, Key Card, Microsoft Office Home and Student 2010, Traditional Disc, Microsoft Office Home and Business 2016 for Mac | 1 user, Mac Key Card, Microsoft Office 365 Home- 5 PCs/Macs + 5 Tablets/iPads, 1-year subscription, Microsoft Office Home and Business 2016 for Mac | 1 user, Mac Download, Microsoft Office Mac Home and Student 2011, Microsoft Office Home and Student 2010 PKC]
+[INFO ] 2018-06-17 13:08:49.757 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 13:08:49.757 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 13:08:51.828 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 13:08:51.828 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 13:08:51.828 [main] GlobalVariables - Webdriver is NULL
