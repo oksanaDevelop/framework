@@ -1,23 +1,279 @@
-[INFO ] 2018-06-17 13:08:31.924 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
-[INFO ] 2018-06-17 13:08:31.928 [main] Environment - HHH000206: hibernate.properties not found
-[INFO ] 2018-06-17 13:08:32.000 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-[INFO ] 2018-06-17 13:08:32.680 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-[INFO ] 2018-06-17 13:08:32.734 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-[INFO ] 2018-06-17 13:08:33.743 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 13:08:33.744 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:36.771 [main] ManageWebDriver - New chrome driver is created
-[INFO ] 2018-06-17 13:08:36.771 [main] GlobalVariables - Put Webdriver to globalVariables.
-[INFO ] 2018-06-17 13:08:41.558 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 13:08:41.558 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:43.239 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 13:08:43.239 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:48.954 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 13:08:48.955 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:49.005 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 13:08:49.005 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:49.748 [main] SeleniumMethods - List of element's text - [Microsoft Office Home and Student 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 | 1 user, PC Key Card, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Download, Sea of Thieves, Microsoft, Xbox One, 889842280449, Microsoft Office 365 Personal | 1-year subscription, 1 user, PC/Mac Download, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Key Card, Microsoft Office 365 Personal | 1-year subscription, 1 users, PC/Mac Key Card, Microsoft Office Home and Business 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 for Mac, Microsoft Office Professional 2016 PC ESD (Digital Code), Microsoft Office 365 Personal 32/64-bit 1-Year Subscription, Microsoft Office Home and Business 2016 (PC Key Card), Microsoft Office Home & Student 2013 - 1 PC, Microsoft Office 365 & McAfee LiveSafe Bundle Pack, Key Card, Microsoft Office Home and Student 2010, Traditional Disc, Microsoft Office Home and Business 2016 for Mac | 1 user, Mac Key Card, Microsoft Office 365 Home- 5 PCs/Macs + 5 Tablets/iPads, 1-year subscription, Microsoft Office Home and Business 2016 for Mac | 1 user, Mac Download, Microsoft Office Mac Home and Student 2011, Microsoft Office Home and Student 2010 PKC]
-[INFO ] 2018-06-17 13:08:49.757 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-06-17 13:08:49.757 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 13:08:51.828 [main] ManageWebDriver - Close driver
-[INFO ] 2018-06-17 13:08:51.828 [main] GlobalVariables - Put Webdriver to globalVariables.
-[INFO ] 2018-06-17 13:08:51.828 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:00:59.193 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-06-17 18:00:59.216 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-06-17 18:00:59.637 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-06-17 18:01:03.592 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-06-17 18:01:03.784 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-06-17 18:01:12.135 [main] Api - 
+ ***** 
+ GET response to endpoint http://services.groupkt.com/country/get/iso3code/USA is 
+ {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+[INFO ] 2018-06-17 18:01:12.141 [main] Api - {
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [USA]." ],
+    "result" : {
+      "name" : "United States of America",
+      "alpha2_code" : "US",
+      "alpha3_code" : "USA"
+    }
+  }
+}
+[INFO ] 2018-06-17 18:01:13.563 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:13.563 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:13.563 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-06-17 18:01:13.791 [main] Api - 
+ ***** 
+ POST response to endpoint http://httpbin.org/post with JSON in body {"mybody":"body"} is 
+ {"args":{},"data":"{\"mybody\":\"body\"}","files":{},"form":{},"headers":{"Accept":"*/*","Accept-Encoding":"gzip,deflate","Connection":"close","Content-Length":"17","Content-Type":"text/plain; charset=ISO-8859-1","Host":"httpbin.org","User-Agent":"Apache-HttpClient/4.5.3 (Java/1.8.0_25)"},"json":{"mybody":"body"},"origin":"97.92.255.6","url":"http://httpbin.org/post"}
+
+[INFO ] 2018-06-17 18:01:13.798 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:13.799 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:13.799 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-06-17 18:01:14.279 [main] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-06-17 18:01:15.420 [main] UserDaoImp - user Dao - User{id=null, name='Tony', companyId='4'}
+[INFO ] 2018-06-17 18:01:15.914 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:15.915 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:15.915 [main] ManageWebDriver - Driver is NULL. Nothing to close
+[INFO ] 2018-06-17 18:01:15.931 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:15.932 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:21.490 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:01:21.490 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:01:25.994 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:25.994 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:26.500 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:26.500 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:29.251 [main] SeleniumMethods - Fill text 'luckyinvestor.info@gmail.com' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:01:29.252 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:29.252 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:29.907 [main] SeleniumMethods - Fill text '9119112' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:01:29.907 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:29.907 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:30.162 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:30.162 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:30.359 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:30.359 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:32.670 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:32.671 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:34.993 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:01:34.995 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:01:35.002 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:01:35.010 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:35.011 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:37.507 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:01:37.507 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:01:42.795 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:42.795 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:43.032 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:43.032 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:45.654 [main] SeleniumMethods - Fill text 'olegmarket@gmail.com' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:01:45.654 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:45.654 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:46.176 [main] SeleniumMethods - Fill text '' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:01:46.176 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:46.176 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:46.305 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:46.305 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:46.486 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:46.487 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:46.531 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:46.532 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:46.599 [main] SeleniumMethods - List of element's text - [Password is required.]
+[INFO ] 2018-06-17 18:01:46.599 [main] SeleniumMethods - Error should be visible 'Password is required.' 
+[INFO ] 2018-06-17 18:01:46.600 [main] SeleniumMethods - Error is visible - 'Password is required.' 
+[INFO ] 2018-06-17 18:01:46.601 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:46.601 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:48.912 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:01:48.913 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:01:48.913 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:01:48.915 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:48.916 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:51.101 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:01:51.101 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:01:55.523 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:55.523 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:55.869 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:55.870 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:58.733 [main] SeleniumMethods - Fill text '' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:01:58.734 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:58.734 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:58.847 [main] SeleniumMethods - Fill text 'lucky125' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:01:58.847 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:58.847 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:59.185 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:59.185 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:59.384 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:59.385 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:59.421 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:01:59.421 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:01:59.465 [main] SeleniumMethods - List of element's text - [Email address is required.]
+[INFO ] 2018-06-17 18:01:59.465 [main] SeleniumMethods - Error should be visible 'Email address is required.' 
+[INFO ] 2018-06-17 18:01:59.465 [main] SeleniumMethods - Error is visible - 'Email address is required.' 
+[INFO ] 2018-06-17 18:01:59.466 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:01:59.466 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:01.799 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:02:01.800 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:01.801 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:02:01.802 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:01.802 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:04.233 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:02:04.233 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:08.184 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:08.184 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:08.444 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:08.445 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:10.895 [main] SeleniumMethods - Fill text '123qwer.com' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:02:10.895 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:10.896 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:11.265 [main] SeleniumMethods - Fill text 'lucky125' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:02:11.265 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:11.265 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:11.643 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:11.643 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:11.810 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:11.810 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:11.846 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:11.846 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:11.888 [main] SeleniumMethods - List of element's text - [Please enter a valid email address.]
+[INFO ] 2018-06-17 18:02:11.888 [main] SeleniumMethods - Error should be visible 'Please enter a valid email address.' 
+[INFO ] 2018-06-17 18:02:11.888 [main] SeleniumMethods - Error is visible - 'Please enter a valid email address.' 
+[INFO ] 2018-06-17 18:02:11.889 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:02:11.889 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:13.967 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:02:13.970 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:13.970 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:02:13.973 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:13.974 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:16.756 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:02:16.756 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:20.668 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:20.669 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:20.866 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:20.867 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:23.988 [main] SeleniumMethods - Fill text '' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:02:23.988 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:23.988 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.113 [main] SeleniumMethods - Fill text '' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:02:24.113 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.113 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.226 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.227 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.417 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.417 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.460 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.460 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.559 [main] SeleniumMethods - List of element's text - [Email address is required., Password is required.]
+[INFO ] 2018-06-17 18:02:24.559 [main] SeleniumMethods - Error should be visible 'Email address is required.' 
+[INFO ] 2018-06-17 18:02:24.560 [main] SeleniumMethods - Error is visible - 'Email address is required.' 
+[INFO ] 2018-06-17 18:02:24.560 [main] SeleniumMethods - Error is visible - 'Password is required.' 
+[INFO ] 2018-06-17 18:02:24.560 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.560 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.580 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:24.580 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:24.650 [main] SeleniumMethods - List of element's text - [Email address is required., Password is required.]
+[INFO ] 2018-06-17 18:02:24.650 [main] SeleniumMethods - Error should be visible 'Password is required.' 
+[INFO ] 2018-06-17 18:02:24.650 [main] SeleniumMethods - Error is visible - 'Email address is required.' 
+[INFO ] 2018-06-17 18:02:24.650 [main] SeleniumMethods - Error is visible - 'Password is required.' 
+[INFO ] 2018-06-17 18:02:24.651 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:02:24.651 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:27.060 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:02:27.060 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:27.060 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:02:27.065 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:27.065 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:29.611 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:02:29.611 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:33.417 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:33.418 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:33.726 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:33.726 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:36.431 [main] SeleniumMethods - Fill text '123qwer.com' into field with locator 'By.name: email'
+[INFO ] 2018-06-17 18:02:36.432 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:36.432 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:36.785 [main] SeleniumMethods - Fill text '' into field with locator 'By.name: password'
+[INFO ] 2018-06-17 18:02:36.785 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:36.785 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:36.935 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:36.936 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:37.111 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:37.111 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:37.148 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:37.148 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:37.247 [main] SeleniumMethods - List of element's text - [Please enter a valid email address., Password is required.]
+[INFO ] 2018-06-17 18:02:37.247 [main] SeleniumMethods - Error should be visible 'Please enter a valid email address.' 
+[INFO ] 2018-06-17 18:02:37.247 [main] SeleniumMethods - Error is visible - 'Please enter a valid email address.' 
+[INFO ] 2018-06-17 18:02:37.247 [main] SeleniumMethods - Error is visible - 'Password is required.' 
+[INFO ] 2018-06-17 18:02:37.247 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:37.247 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:37.266 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:37.267 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:37.331 [main] SeleniumMethods - List of element's text - [Please enter a valid email address., Password is required.]
+[INFO ] 2018-06-17 18:02:37.331 [main] SeleniumMethods - Error should be visible 'Password is required.' 
+[INFO ] 2018-06-17 18:02:37.331 [main] SeleniumMethods - Error is visible - 'Please enter a valid email address.' 
+[INFO ] 2018-06-17 18:02:37.331 [main] SeleniumMethods - Error is visible - 'Password is required.' 
+[INFO ] 2018-06-17 18:02:37.332 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:02:37.332 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:39.643 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:02:39.643 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:39.644 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:02:39.648 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:39.648 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:42.303 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:02:42.303 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:45.891 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:45.891 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:46.065 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:46.066 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:51.050 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:51.050 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:51.096 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:51.096 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:52.025 [main] SeleniumMethods - List of element's text - [HP Silver Iridium 15.6" Laptop, Touchscreen, Intel Core i7-7500u, Intel HD Graphic 620 Graphic Card, 12GB Memory, 1TB HD, Windows 10 Home, 15-cc060wm, HP Flyer Red 15.6" 15-f272wm Laptop PC with Intel Pentium N3540 Processor, 4GB Memory, 500GB Hard Drive and Windows 10 Home, HP Jaguar 15-bs060wm, 15.6" Touch Natural Silver Laptop, Windows 10, Intel Core i3-7100U Processor, 8GB Memory, 1TB Hard Drive, HP Officejet 4652 All-in-One Printer/Copier/Scanner, HP 15-ay039wm 15.6" Silver Fusion Laptop, Windows 10, Intel Core i3-6100U Processor, 8GB Memory, 1TB Hard Drive, HP Jaguar 15-bs080wm, 15.6" Natural Silver Touch Laptop, Windows 10, Intel Core i7-7500U Processor, 8GB Memory, 1TB Hard Drive, HP Black Licorice 15.6" 15-F387WM Laptop PC with AMD A8-7410 Processor, 4GB Memory, touch screen, 500GB Hard Drive and Windows 10 Home, HP Pavilion 17-ar050wm, 17.3" Laptop, Full HD IPS Dislpay, Windows 10 Home, AMD A10-9620P QC, 8GB Memory, 1TB Hard Drive, Mineral Silver, HP Stream 14" Laptop, Windows 10 Home, Office 365 Personal 1-year included, Intel Celeron N3060 Processor, 4GB RAM, 32GB eMMC Storage, HP Silver Iridium Ci5 15-cc050wm 15.6" Laptop, Touchscreen, Windows 10 Home, Intel Core i5-7200U Processor, 12GB Memory, 1TB Hard Drive, Refurbished HP Black 15.6" 15-f233wm Laptop PC with Intel Celeron N3050 Processor, 4GB Memory, 500GB Hard Drive and Windows 10 Home, HP Stream 11.6" Laptop, Windows 10 Home, Intel Celeron N3060 Processor, 4GB RAM, 32GB eMMC Storage, Refurbished, HP OfficeJet 8702 All in One Wireless Printer, HP 15-ay070wm 15.6" Realtree Xtra Camo Laptop, Windows 10, Intel Pentium N3710 Processor, 4GB Memory, 1TB Hard Drive, HP Silver Iridium A12 15-cd040wm 15.6” Laptop, Touchscreen, Windows 10 Home, AMD Quad-Core A12-9720P, 12GB Memory, 1TB Hard Drive, HP Stream 14" Laptop, Windows 10 Home, Office 365 Personal 1-year included, Intel Celeron N3060 Processor, 4GB RAM, 32GB eMMC Storage, HP Officejet Pro 8710 All-in-One - multifunction printer (color), HP Slim 270-p033w Desktop Tower, Intel Celeron G3930 Processor, 4GB Memory, 500GB Hard Drive, Keyboard and Mouse, Windows 10, HP Jaguar 15-bs070wm, 15.6" Natural Silver Touch Laptop, Windows 10, Intel Core i5-7200U Processor, 8GB Memory, 1TB Hard Drive, HP Turbo Silver 15-f271wm Laptop PC with Intel Pentium N3540 Processor, 4GB Memory, 500GB Hard drive, and Windows 10 Home]
+[INFO ] 2018-06-17 18:02:52.026 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:02:52.027 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:54.357 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:02:54.357 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:02:54.358 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:02:54.360 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:02:54.360 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:02:57.418 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:02:57.418 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:03:01.411 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:01.412 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:01.633 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:01.633 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:06.999 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:06.999 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:07.046 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:07.046 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:07.820 [main] SeleniumMethods - List of element's text - [Microsoft Office Home and Student 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 | 1 user, PC Key Card, Sea of Thieves, Microsoft, Xbox One, 889842280449, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Download, Microsoft Office 365 Home | 1-year subscription, 5 users, PC/Mac Key Card, Microsoft Office 365 Personal | 1-year subscription, 1 user, PC/Mac Download, Microsoft Office Home and Student 2016 for Mac | 1 user, Mac Key Card, Microsoft Office 365 Personal | 1-year subscription, 1 users, PC/Mac Key Card, Microsoft Office Home and Business 2016 | 1 user, PC Download, Microsoft Office Home and Student 2016 for Mac, Microsoft Office Professional 2016 PC ESD (Digital Code), Microsoft Office 365 Personal 32/64-bit 1-Year Subscription, Microsoft Office Home and Student 2016 for Mac | 1 user, Mac Download, Microsoft Office Home and Student 2016 (PC Key Card), Microsoft Office Home and Business 2016 (PC Key Card), Microsoft Office 365 & McAfee LiveSafe Bundle Pack, Key Card, Microsoft Windows 10 Home (Digital Code), Microsoft Office Home and Student 2010, Traditional Disc, Microsoft Office Home and Business 2016 for Mac | 1 user, Mac Key Card, Microsoft Office 365 Home- 5 PCs/Macs + 5 Tablets/iPads, 1-year subscription]
+[INFO ] 2018-06-17 18:03:07.821 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:03:07.821 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:10.152 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:03:10.153 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:03:10.153 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:03:10.154 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:10.154 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:13.687 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:03:13.687 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:03:17.725 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:17.725 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:17.892 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:17.892 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:23.321 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:23.321 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:23.379 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:03:23.379 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:24.183 [main] SeleniumMethods - List of element's text - [Canon 8279B004 PG-245 Black Inkjet Print Cartridge, Canon T6 EOS Rebel DSLR Camera w/ EF-S 18-55mm IS II & 75-300mm III Lens Kit + Accessory Bundle 64GB SDXC Memory + SLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon PIXMA MG2522 All-in-One Inkjet Printer, Canon PIXMA MX490 Wireless Office All-in-One Printer/Copier/Scanner/Fax Machine, Canon EOS Rebel T6 Digital SLR Camera w/ EF-S 18-55mm IS + EF-S 75-300mm Lens Bundle includes Camera, Lenses, Bag, Filter Kit, Memory Card, Tripod, Flash, Cleaning Kit, Beach Camera Cloth and More, Canon EOS 6D Mark II (Body Only) - Black, Canon EOS Rebel T6 EF-S 18-55mm + EF 75-300mm Double Zoom Kit, Canon SX530 PowerShot SX530 16MP 50x Zoom Digital Camera, Canon Black EOS Rebel T6 EF-S IS Digital Camera with 18 Megapixels and 18-55mm Lens Included, Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens  + 32GB Memory Card + Tripod + Accessory Bundle, Canon T6 EOS Rebel DSLR Camera with EF-S 18-55mm f/3.5-5.6 IS II and EF 75-300mm f/4-5.6 III Lens and SanDisk Memory Cards 16GB 2 Pack Plus Triple Battery Accessory Bundle, Canon EOS Rebel T6i DSLR Camera with 18-55mm Lens, Canon Powershot SX530 HS Camera with 32GB Deluxe Accessory Kit, Canon EOS Rebel T6 Digital SLR Camera with 18 Megapixels and 18-55mm, 75-300mm Lenses, Bonus SD card, and WiFi, Canon EOS Rebel T6 Digital SLR Camera Wifi + EF-S 18-55mm IS STM Lens Kit + Accessory Bundle 64GB SDXC Memory + DSLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon 8278B005 (PG-245XL/CL-246XL) Ink & Paper Combo Pack, Black/Tri-Color, Canon PowerShot ELPH 180 Digital Camera (Silver), Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens + Two Memory Cards + Flash + Accessory Bundle, Canon Rebel T6 DSLR Camera w/18-55mm & 75-300mm Lenses Premium Bundle, Flash, 2x 16GB SD Cards, Camera Bag, Canon PIXMA MX922 Wireless All-In-One Office Inkjet Printer, Copy/Fax/Print/Scan]
+[INFO ] 2018-06-17 18:03:24.184 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:03:24.184 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:03:26.519 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:03:26.520 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:03:26.521 [main] GlobalVariables - Webdriver is NULL

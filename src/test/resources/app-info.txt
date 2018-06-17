@@ -1,29 +1,29 @@
-[INFO ] 2018-06-17 17:35:35.709 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
-[INFO ] 2018-06-17 17:35:35.718 [main] Environment - HHH000206: hibernate.properties not found
-[INFO ] 2018-06-17 17:35:35.870 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-[INFO ] 2018-06-17 17:35:36.898 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-[INFO ] 2018-06-17 17:35:37.001 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
-[INFO ] 2018-06-17 17:35:40.296 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 17:35:40.297 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:35:43.871 [main] ManageWebDriver - New chrome driver is created
-[INFO ] 2018-06-17 17:35:43.871 [main] GlobalVariables - Put Webdriver to globalVariables.
-[INFO ] 2018-06-17 17:35:51.230 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 17:35:51.231 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:35:51.983 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 17:35:51.985 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:36:02.658 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 17:36:02.658 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:36:02.703 [main] SeleniumMethods - Methods ask driver
-[INFO ] 2018-06-17 17:36:02.703 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:36:03.492 [main] SeleniumMethods - List of element's text - [Canon 8279B004 PG-245 Black Inkjet Print Cartridge, Canon T6 EOS Rebel DSLR Camera w/ EF-S 18-55mm IS II & 75-300mm III Lens Kit + Accessory Bundle 64GB SDXC Memory + SLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon PIXMA MG2522 All-in-One Inkjet Printer, Canon PIXMA MX490 Wireless Office All-in-One Printer/Copier/Scanner/Fax Machine, Canon EOS Rebel T6 Digital SLR Camera w/ EF-S 18-55mm IS + EF-S 75-300mm Lens Bundle includes Camera, Lenses, Bag, Filter Kit, Memory Card, Tripod, Flash, Cleaning Kit, Beach Camera Cloth and More, Canon EOS 5D Mark IV Body, Canon EOS Rebel T6 EF-S 18-55mm + EF 75-300mm Double Zoom Kit, Canon SX530 PowerShot SX530 16MP 50x Zoom Digital Camera, Canon Black EOS Rebel T6 EF-S IS Digital Camera with 18 Megapixels and 18-55mm Lens Included, Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens  + 32GB Memory Card + Tripod + Accessory Bundle, Canon T6 EOS Rebel DSLR Camera with EF-S 18-55mm f/3.5-5.6 IS II and EF 75-300mm f/4-5.6 III Lens and SanDisk Memory Cards 16GB 2 Pack Plus Triple Battery Accessory Bundle, Canon EOS 6D Mark II (Body Only) - Black, Canon Powershot SX530 HS Camera with 32GB Deluxe Accessory Kit, Canon EOS Rebel T6 Digital SLR Camera with 18 Megapixels and 18-55mm, 75-300mm Lenses, Bonus SD card, and WiFi, Canon EOS Rebel T6 Digital SLR Camera Wifi + EF-S 18-55mm IS STM Lens Kit + Accessory Bundle 64GB SDXC Memory + DSLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon 8278B005 (PG-245XL/CL-246XL) Ink & Paper Combo Pack, Black/Tri-Color, Canon EOS Rebel T6i DSLR Camera with 18-55mm Lens, Canon PowerShot ELPH 180 Digital Camera (Silver), Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens + Two Memory Cards + Flash + Accessory Bundle, Canon Rebel T6 DSLR Camera w/18-55mm & 75-300mm Lenses Premium Bundle, Flash, 2x 16GB SD Cards, Camera Bag]
-[INFO ] 2018-06-17 17:36:03.500 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-06-17 17:36:03.501 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:36:05.725 [main] ManageWebDriver - Close driver
-[INFO ] 2018-06-17 17:36:05.726 [main] GlobalVariables - Put Webdriver to globalVariables.
-[INFO ] 2018-06-17 17:36:05.737 [main] GlobalVariables - Webdriver is NULL
-um N3540 Processor, 4GB Memory, 500GB Hard drive, and Windows 10 Home]
-[INFO ] 2018-06-17 17:35:55.515 [main] ManageWebDriver - Take a screenshot
-[INFO ] 2018-06-17 17:35:55.516 [main] GlobalVariables - Take a WebDriver from globalVariables
-[INFO ] 2018-06-17 17:35:58.656 [main] ManageWebDriver - Close driver
-[INFO ] 2018-06-17 17:35:58.657 [main] GlobalVariables - Put Webdriver to globalVariables.
-[INFO ] 2018-06-17 17:35:58.657 [main] GlobalVariables - Webdriver is NULL
+[INFO ] 2018-06-17 18:06:55.538 [main] Version - HHH000412: Hibernate Core {5.2.11.Final}
+[INFO ] 2018-06-17 18:06:56.058 [main] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-06-17 18:06:56.212 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2018-06-17 18:06:57.111 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-06-17 18:06:57.183 [main] LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[INFO ] 2018-06-17 18:06:59.385 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:06:59.388 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:05.657 [main] ManageWebDriver - New chrome driver is created
+[INFO ] 2018-06-17 18:07:05.658 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:07:23.479 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:07:23.479 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:24.355 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:07:24.355 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:39.361 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:07:39.362 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:39.411 [main] SeleniumMethods - Methods ask driver
+[INFO ] 2018-06-17 18:07:39.411 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:40.276 [main] SeleniumMethods - List of element's text - [Canon 8279B004 PG-245 Black Inkjet Print Cartridge, Canon T6 EOS Rebel DSLR Camera w/ EF-S 18-55mm IS II & 75-300mm III Lens Kit + Accessory Bundle 64GB SDXC Memory + SLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon PIXMA MG2522 All-in-One Inkjet Printer, Canon PIXMA MX490 Wireless Office All-in-One Printer/Copier/Scanner/Fax Machine, Canon EOS Rebel T6 Digital SLR Camera w/ EF-S 18-55mm IS + EF-S 75-300mm Lens Bundle includes Camera, Lenses, Bag, Filter Kit, Memory Card, Tripod, Flash, Cleaning Kit, Beach Camera Cloth and More, Canon EOS 6D Mark II (Body Only) - Black, Canon EOS Rebel T6 EF-S 18-55mm + EF 75-300mm Double Zoom Kit, Canon SX530 PowerShot SX530 16MP 50x Zoom Digital Camera, Canon Black EOS Rebel T6 EF-S IS Digital Camera with 18 Megapixels and 18-55mm Lens Included, Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens  + 32GB Memory Card + Tripod + Accessory Bundle, Canon T6 EOS Rebel DSLR Camera with EF-S 18-55mm f/3.5-5.6 IS II and EF 75-300mm f/4-5.6 III Lens and SanDisk Memory Cards 16GB 2 Pack Plus Triple Battery Accessory Bundle, Canon EOS Rebel T6i DSLR Camera with 18-55mm Lens, Canon Powershot SX530 HS Camera with 32GB Deluxe Accessory Kit, Canon EOS Rebel T6 Digital SLR Camera with 18 Megapixels and 18-55mm, 75-300mm Lenses, Bonus SD card, and WiFi, Canon EOS Rebel T6 Digital SLR Camera Wifi + EF-S 18-55mm IS STM Lens Kit + Accessory Bundle 64GB SDXC Memory + DSLR Photo Bag + Wide Angle Lens + 2x Telephoto Lens + Flash + Remote + Tripod & More, Canon 8278B005 (PG-245XL/CL-246XL) Ink & Paper Combo Pack, Black/Tri-Color, Canon PowerShot ELPH 180 Digital Camera (Silver), Canon EOS Rebel T6 DSLR Camera w/18-55mm Lens + Two Memory Cards + Flash + Accessory Bundle, Canon Rebel T6 DSLR Camera w/18-55mm & 75-300mm Lenses Premium Bundle, Flash, 2x 16GB SD Cards, Camera Bag, Canon PIXMA MX922 Wireless All-In-One Office Inkjet Printer, Copy/Fax/Print/Scan]
+[INFO ] 2018-06-17 18:07:40.285 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:07:40.286 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:42.597 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:07:42.597 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:07:42.597 [main] GlobalVariables - Webdriver is NULL
+indows 10 Home]
+[INFO ] 2018-06-17 18:07:35.994 [main] ManageWebDriver - Take a screenshot
+[INFO ] 2018-06-17 18:07:35.996 [main] GlobalVariables - Take a WebDriver from globalVariables
+[INFO ] 2018-06-17 18:07:38.486 [main] ManageWebDriver - Close driver
+[INFO ] 2018-06-17 18:07:38.501 [main] GlobalVariables - Put Webdriver to globalVariables.
+[INFO ] 2018-06-17 18:07:38.502 [main] GlobalVariables - Webdriver is NULL
